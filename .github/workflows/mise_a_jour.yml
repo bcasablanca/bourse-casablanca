@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
 
     steps:
       - name: Checkout
@@ -35,6 +33,9 @@ jobs:
 
       - name: Script 3 - Generation HTML
         run: python 3_generer_html.py
+
+      - name: Renommer en index.html
+        run: cp bourse_casablanca.html index.html
 
       - name: Commit et push
         run: |
