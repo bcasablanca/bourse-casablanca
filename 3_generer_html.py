@@ -10,7 +10,7 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
-DOSSIER   = Path(r"C:\python")
+DOSSIER   = Path(".")
 CSV_PATH  = DOSSIER / "BCASAD.CSV"
 HTML_PATH = DOSSIER / "bourse_casablanca.html"
 SEP = "=" * 62
