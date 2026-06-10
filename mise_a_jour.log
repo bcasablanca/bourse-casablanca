@@ -104,3 +104,10 @@
 2026-06-10 17:41:04  INFO        ...   Telechargement : 2026-06-10 -> 2026-06-10
 2026-06-10 17:41:52  ERROR      [ERR] Aucune donnee ecrite dans le CSV (seulement MASI/MSI20 vides).
 2026-06-10 17:41:52  ERROR      [ERR] La bourse est peut-etre fermee ou les donnees ne sont pas disponibles.
+2026-06-10 18:10:38  INFO        ...   Derniere date CSV : 2026-06-09
+2026-06-10 18:10:38  INFO        ...   1 seances manquantes : 2026-06-10 -> 2026-06-10
+2026-06-10 18:10:38  INFO        ...   Recuperation de la liste des actions ...
+2026-06-10 18:10:38  INFO        [OK]  81 actions trouvees.
+2026-06-10 18:10:38  INFO        ...   Telechargement : 2026-06-10 -> 2026-06-10
+2026-06-10 18:11:27  ERROR      [ERR] Aucune donnee ecrite dans le CSV (seulement MASI/MSI20 vides).
+2026-06-10 18:11:27  ERROR      [ERR] La bourse est peut-etre fermee ou les donnees ne sont pas disponibles.
