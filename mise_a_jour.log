@@ -352,3 +352,10 @@
 2026-07-08 09:22:51  INFO        ...   Telechargement : 2026-07-07 -> 2026-07-08
 2026-07-08 09:23:46  INFO        [OK]  63 lignes ajoutees dans BCASAD.CSV
 2026-07-08 09:23:46  INFO        [OK]  Mise a jour terminee !
+2026-07-08 19:06:21  INFO        ...   Derniere date CSV : 2026-07-07
+2026-07-08 19:06:21  INFO        ...   1 seances manquantes : 2026-07-08 -> 2026-07-08
+2026-07-08 19:06:21  INFO        ...   Recuperation de la liste des actions ...
+2026-07-08 19:06:21  INFO        [OK]  81 actions trouvees.
+2026-07-08 19:06:21  INFO        ...   Telechargement : 2026-07-08 -> 2026-07-08
+2026-07-08 19:07:08  ERROR      [ERR] Aucune donnee ecrite dans le CSV (seulement MASI/MSI20 vides).
+2026-07-08 19:07:08  ERROR      [ERR] La bourse est peut-etre fermee ou les donnees ne sont pas disponibles.
