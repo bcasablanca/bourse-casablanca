@@ -383,3 +383,10 @@
 2026-07-10 10:19:10  INFO        ...   Telechargement : 2026-07-09 -> 2026-07-10
 2026-07-10 10:20:07  INFO        [OK]  62 lignes ajoutees dans BCASAD.CSV
 2026-07-10 10:20:07  INFO        [OK]  Mise a jour terminee !
+2026-07-11 08:43:28  INFO        ...   Derniere date CSV : 2026-07-09
+2026-07-11 08:43:28  INFO        ...   1 seances manquantes : 2026-07-10 -> 2026-07-10
+2026-07-11 08:43:28  INFO        ...   Recuperation de la liste des actions ...
+2026-07-11 08:43:28  INFO        [OK]  81 actions trouvees.
+2026-07-11 08:43:28  INFO        ...   Telechargement : 2026-07-10 -> 2026-07-10
+2026-07-11 08:44:16  INFO        [OK]  43 lignes ajoutees dans BCASAD.CSV
+2026-07-11 08:44:16  INFO        [OK]  Mise a jour terminee !
