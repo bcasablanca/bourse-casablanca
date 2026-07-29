@@ -22,7 +22,7 @@
     "signal_ana": "N/A",
     "perf_1an": -38.93,
     "cap_fmt": "40.57 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Marsa Maroc": {
     "nom_bvc": "SODEP-Marsa Maroc",
@@ -47,7 +47,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "63.49 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Aradei Capital": {
     "nom_bvc": "ARADEI CAPITAL",
@@ -72,7 +72,7 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": -7.42,
     "cap_fmt": "5.37 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "BALIMA": {
     "nom_bvc": "BALIMA",
@@ -97,7 +97,7 @@
     "signal_ana": "N/A",
     "perf_1an": -16.14,
     "cap_fmt": "333.45 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Immr Invest": {
     "nom_bvc": "IMMORENTE INVEST",
@@ -122,7 +122,7 @@
     "signal_ana": "ACHAT",
     "perf_1an": 3.97,
     "cap_fmt": "817.57 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Cartier Saada": {
     "nom_bvc": "CARTIER SAADA",
@@ -147,7 +147,7 @@
     "signal_ana": "N/A",
     "perf_1an": -42.43,
     "cap_fmt": "123.52 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "COSUMAR": {
     "nom_bvc": "COSUMAR",
@@ -172,7 +172,7 @@
     "signal_ana": "N/A",
     "perf_1an": -30.23,
     "cap_fmt": "17.10 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Dari Couspate": {
     "nom_bvc": "DARI COUSPATE",
@@ -197,7 +197,7 @@
     "signal_ana": "N/A",
     "perf_1an": 25.07,
     "cap_fmt": "1.25 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Lesieur Cristal": {
     "nom_bvc": "LESIEUR CRISTAL",
@@ -222,7 +222,7 @@
     "signal_ana": "N/A",
     "perf_1an": 10.63,
     "cap_fmt": "8.46 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Mutandis": {
     "nom_bvc": "MUTANDIS SCA",
@@ -247,7 +247,7 @@
     "signal_ana": "CONSERVER",
     "perf_1an": -19.69,
     "cap_fmt": "2.15 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Unimer": {
     "nom_bvc": "UNIMER",
@@ -272,7 +272,7 @@
     "signal_ana": "N/A",
     "perf_1an": 2.91,
     "cap_fmt": "2.02 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "2L SAH J01JAN2026": {
     "nom_bvc": "2L SAH J01JAN2026",
@@ -297,7 +297,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "3.53 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "AFMA": {
     "nom_bvc": "AFMA",
@@ -322,7 +322,7 @@
     "signal_ana": "N/A",
     "perf_1an": -8.75,
     "cap_fmt": "1.23 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Agma": {
     "nom_bvc": "AGMA",
@@ -347,7 +347,7 @@
     "signal_ana": "CONSERVER",
     "perf_1an": -4.15,
     "cap_fmt": "1.34 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "ATLANTASANAD": {
     "nom_bvc": "ATLANTASANAD",
@@ -372,7 +372,7 @@
     "signal_ana": "N/A",
     "perf_1an": -14.52,
     "cap_fmt": "7.48 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Sanlam Maroc": {
     "nom_bvc": "SANLAM MAROC",
@@ -397,7 +397,7 @@
     "signal_ana": "N/A",
     "perf_1an": 61.82,
     "cap_fmt": "11.94 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Wafa Assur": {
     "nom_bvc": "WAFA ASSURANCE",
@@ -422,7 +422,7 @@
     "signal_ana": "ACHAT FORT",
     "perf_1an": -4.45,
     "cap_fmt": "18.55 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Afric Indus": {
     "nom_bvc": "AFRIC INDUSTRIES SA",
@@ -447,7 +447,7 @@
     "signal_ana": "N/A",
     "perf_1an": -1.55,
     "cap_fmt": "96.87 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Aluminium Maroc": {
     "nom_bvc": "ALUMINIUM DU MAROC",
@@ -472,7 +472,7 @@
     "signal_ana": "N/A",
     "perf_1an": -10.71,
     "cap_fmt": "815.42 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Ciments Maroc": {
     "nom_bvc": "CIMENTS DU MAROC",
@@ -497,7 +497,7 @@
     "signal_ana": "N/A",
     "perf_1an": -20.1,
     "cap_fmt": "23.86 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Colorado": {
     "nom_bvc": "COLORADO",
@@ -522,7 +522,7 @@
     "signal_ana": "N/A",
     "perf_1an": 26.91,
     "cap_fmt": "1.26 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Holcim Maroc S.A": {
     "nom_bvc": "Holcim Maroc S.A",
@@ -547,7 +547,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "41.45 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Jet Contractors": {
     "nom_bvc": "JET CONTRACTORS",
@@ -572,7 +572,7 @@
     "signal_ana": "N/A",
     "perf_1an": 0.53,
     "cap_fmt": "6.29 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "SGTM": {
     "nom_bvc": "SGTM S.A",
@@ -597,7 +597,7 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": null,
     "cap_fmt": "40.80 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Sonasid": {
     "nom_bvc": "SONASID",
@@ -622,7 +622,7 @@
     "signal_ana": "VENTE",
     "perf_1an": -21.39,
     "cap_fmt": "7.46 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "TGCC": {
     "nom_bvc": "TGCC S.A",
@@ -647,7 +647,7 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": -25.5,
     "cap_fmt": "25.83 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Attijariwafa": {
     "nom_bvc": "ATTIJARIWAFA BANK",
@@ -672,7 +672,7 @@
     "signal_ana": "N/A",
     "perf_1an": -3.0,
     "cap_fmt": "145.87 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "BOA": {
     "nom_bvc": "BANK OF AFRICA",
@@ -697,7 +697,7 @@
     "signal_ana": "N/A",
     "perf_1an": -29.32,
     "cap_fmt": "41.85 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "BCP": {
     "nom_bvc": "BCP",
@@ -722,7 +722,7 @@
     "signal_ana": "N/A",
     "perf_1an": -20.95,
     "cap_fmt": "50.42 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "BMCI": {
     "nom_bvc": "BMCI",
@@ -747,7 +747,7 @@
     "signal_ana": "N/A",
     "perf_1an": -0.59,
     "cap_fmt": "8.02 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "CDM": {
     "nom_bvc": "CDM",
@@ -772,7 +772,7 @@
     "signal_ana": "N/A",
     "perf_1an": -3.3,
     "cap_fmt": "11.51 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "CFG Bank": {
     "nom_bvc": "CFG BANK",
@@ -797,7 +797,7 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": -21.98,
     "cap_fmt": "6.83 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "CIH": {
     "nom_bvc": "CIH",
@@ -822,7 +822,7 @@
     "signal_ana": "N/A",
     "perf_1an": -15.12,
     "cap_fmt": "12.50 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Oulmes": {
     "nom_bvc": "OULMES",
@@ -847,7 +847,7 @@
     "signal_ana": "N/A",
     "perf_1an": -5.25,
     "cap_fmt": "2.29 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Ste Boissons": {
     "nom_bvc": "SOCIETE DES BOISSONS DU MAROC",
@@ -872,7 +872,7 @@
     "signal_ana": "N/A",
     "perf_1an": 11.41,
     "cap_fmt": "5.94 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Maghreb Oxygene": {
     "nom_bvc": "MAGHREB OXYGENE",
@@ -897,7 +897,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "296.56 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "SNEP": {
     "nom_bvc": "SNEP",
@@ -922,7 +922,7 @@
     "signal_ana": "N/A",
     "perf_1an": -54.36,
     "cap_fmt": "753.60 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Auto Hall": {
     "nom_bvc": "AUTO HALL",
@@ -947,7 +947,7 @@
     "signal_ana": "N/A",
     "perf_1an": -16.94,
     "cap_fmt": "3.32 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Auto Nejma": {
     "nom_bvc": "AUTO NEJMA",
@@ -972,7 +972,7 @@
     "signal_ana": "ACHAT FORT",
     "perf_1an": 161.12,
     "cap_fmt": "5.53 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Ennakl": {
     "nom_bvc": "ENNAKL",
@@ -997,7 +997,7 @@
     "signal_ana": "N/A",
     "perf_1an": 48.12,
     "cap_fmt": "1.46 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "FENIE BROSSETTE": {
     "nom_bvc": "FENIE BROSSETTE",
@@ -1022,7 +1022,7 @@
     "signal_ana": "N/A",
     "perf_1an": -37.69,
     "cap_fmt": "381.33 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "LABEL VIE": {
     "nom_bvc": "LABEL VIE",
@@ -1047,7 +1047,7 @@
     "signal_ana": "N/A",
     "perf_1an": -26.69,
     "cap_fmt": "10.56 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Rebab Company": {
     "nom_bvc": "REBAB COMPANY",
@@ -1072,7 +1072,7 @@
     "signal_ana": "N/A",
     "perf_1an": -3.37,
     "cap_fmt": "15.54 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Stokvis Nord Afr": {
     "nom_bvc": "STOKVIS NORD AFRIQUE",
@@ -1097,7 +1097,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "1.20 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "DELATTRE LEVIVIER MAROC": {
     "nom_bvc": "DELATTRE LEVIVIER MAROC",
@@ -1122,7 +1122,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "70.00 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "STROC Indus": {
     "nom_bvc": "STROC INDUSTRIE",
@@ -1147,7 +1147,7 @@
     "signal_ana": "N/A",
     "perf_1an": -17.27,
     "cap_fmt": "234.60 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Alliances": {
     "nom_bvc": "ALLIANCES",
@@ -1172,7 +1172,7 @@
     "signal_ana": "N/A",
     "perf_1an": -23.65,
     "cap_fmt": "8.10 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Addoha": {
     "nom_bvc": "DOUJA PROM ADDOHA",
@@ -1197,7 +1197,7 @@
     "signal_ana": "N/A",
     "perf_1an": -8.34,
     "cap_fmt": "13.69 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Res.Dar Saada": {
     "nom_bvc": "RESIDENCES DAR SAADA",
@@ -1222,7 +1222,7 @@
     "signal_ana": "N/A",
     "perf_1an": 17.9,
     "cap_fmt": "4.41 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Risma": {
     "nom_bvc": "RISMA",
@@ -1247,7 +1247,7 @@
     "signal_ana": "N/A",
     "perf_1an": -8.47,
     "cap_fmt": "5.12 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Disty Technolog": {
     "nom_bvc": "DISTY TECHNOLOGIES",
@@ -1272,7 +1272,7 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": 0.95,
     "cap_fmt": "336.36 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "DISWAY": {
     "nom_bvc": "DISWAY",
@@ -1297,7 +1297,7 @@
     "signal_ana": "N/A",
     "perf_1an": 5.27,
     "cap_fmt": "1.46 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "HPS": {
     "nom_bvc": "HPS",
@@ -1322,7 +1322,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "4.44 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "IBMaroc": {
     "nom_bvc": "IB MAROC.COM",
@@ -1347,7 +1347,7 @@
     "signal_ana": "N/A",
     "perf_1an": -32.73,
     "cap_fmt": "25.05 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "INVOLYS": {
     "nom_bvc": "INVOLYS",
@@ -1372,7 +1372,7 @@
     "signal_ana": "N/A",
     "perf_1an": -22.51,
     "cap_fmt": "48.60 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "M2M Group": {
     "nom_bvc": "M2M Group",
@@ -1397,7 +1397,7 @@
     "signal_ana": "N/A",
     "perf_1an": -29.2,
     "cap_fmt": "235.86 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Microdata": {
     "nom_bvc": "MICRODATA",
@@ -1422,7 +1422,7 @@
     "signal_ana": "N/A",
     "perf_1an": -11.38,
     "cap_fmt": "1.24 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "S2M": {
     "nom_bvc": "S.M MONETIQUE",
@@ -1447,7 +1447,7 @@
     "signal_ana": "N/A",
     "perf_1an": -27.36,
     "cap_fmt": "366.24 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Managem": {
     "nom_bvc": "MANAGEM",
@@ -1472,7 +1472,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "156.02 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "CMT": {
     "nom_bvc": "MINIERE TOUISSIT",
@@ -1497,7 +1497,7 @@
     "signal_ana": "N/A",
     "perf_1an": 85.11,
     "cap_fmt": "7.31 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "SMI": {
     "nom_bvc": "SMI",
@@ -1522,7 +1522,7 @@
     "signal_ana": "N/A",
     "perf_1an": 159.65,
     "cap_fmt": "10.00 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Afriquia Gaz": {
     "nom_bvc": "AFRIQUIA GAZ",
@@ -1547,7 +1547,7 @@
     "signal_ana": "N/A",
     "perf_1an": -17.05,
     "cap_fmt": "12.65 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "SAMIR": {
     "nom_bvc": "SAMIR",
@@ -1572,7 +1572,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "1.52 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Total Maroc": {
     "nom_bvc": "TOTALENERGIES MARKETING MAROC",
@@ -1597,7 +1597,7 @@
     "signal_ana": "N/A",
     "perf_1an": -10.12,
     "cap_fmt": "13.56 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "PROMOPHARM": {
     "nom_bvc": "PROMOPHARM S.A.",
@@ -1622,7 +1622,7 @@
     "signal_ana": "N/A",
     "perf_1an": 17.46,
     "cap_fmt": "1.34 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "SOTHEMA": {
     "nom_bvc": "SOTHEMA",
@@ -1647,7 +1647,7 @@
     "signal_ana": "N/A",
     "perf_1an": -69.25,
     "cap_fmt": "14.14 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "MED PAPER": {
     "nom_bvc": "MED PAPER",
@@ -1672,7 +1672,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "124.28 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Cash Plus": {
     "nom_bvc": "CASH PLUS S.A",
@@ -1697,7 +1697,7 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": null,
     "cap_fmt": "5.92 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "DIAC Salaf": {
     "nom_bvc": "DIAC SALAF",
@@ -1722,7 +1722,7 @@
     "signal_ana": "ACHAT FORT",
     "perf_1an": null,
     "cap_fmt": "27.65 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "EQDOM": {
     "nom_bvc": "EQDOM",
@@ -1747,7 +1747,7 @@
     "signal_ana": "ACHAT FORT",
     "perf_1an": 46.57,
     "cap_fmt": "2.62 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "SALAFIN": {
     "nom_bvc": "SALAFIN",
@@ -1772,7 +1772,7 @@
     "signal_ana": "N/A",
     "perf_1an": -30.19,
     "cap_fmt": "1.34 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Maroc Leasing": {
     "nom_bvc": "MAROC LEASING",
@@ -1797,7 +1797,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "1.01 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Delta Holding": {
     "nom_bvc": "DELTA HOLDING",
@@ -1822,7 +1822,7 @@
     "signal_ana": "N/A",
     "perf_1an": -34.89,
     "cap_fmt": "4.77 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Zellidja": {
     "nom_bvc": "ZELLIDJA S.A",
@@ -1847,7 +1847,7 @@
     "signal_ana": "N/A",
     "perf_1an": 28.57,
     "cap_fmt": "131.58 M MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "IAM": {
     "nom_bvc": "ITISSALAT AL-MAGHRIB",
@@ -1872,7 +1872,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "80.79 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "CTM": {
     "nom_bvc": "CTM",
@@ -1897,7 +1897,7 @@
     "signal_ana": "N/A",
     "perf_1an": -8.72,
     "cap_fmt": "1.07 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "Akdital": {
     "nom_bvc": "VICENNE",
@@ -1922,7 +1922,7 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": -21.84,
     "cap_fmt": "3.59 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "T2S GROUP HOLDING": {
     "nom_bvc": "T2S GROUP HOLDING",
@@ -1947,7 +1947,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "5.27 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   },
   "CMGP Group": {
     "nom_bvc": "CMGP GROUP",
@@ -1972,6 +1972,6 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": -10.23,
     "cap_fmt": "5.42 Mrd MAD",
-    "mise_a_jour": "28/07/2026 19:31"
+    "mise_a_jour": "29/07/2026 03:31"
   }
 }
