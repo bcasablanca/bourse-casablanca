@@ -12,17 +12,17 @@
     "capitalisation": 40336406820.0,
     "nb_titres": 23588542,
     "poids_marche": 4.0,
-    "beta": 1.5,
-    "liquidite": 21938098.0,
+    "beta": 1.51,
+    "liquidite": 18496883.0,
     "haut_52s": 3080.0,
     "bas_52s": 1631.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -40.28,
+    "perf_1an": -40.81,
     "cap_fmt": "40.34 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Marsa Maroc": {
     "nom_bvc": "SODEP-Marsa Maroc",
@@ -47,7 +47,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "62.90 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Aradei Capital": {
     "nom_bvc": "ARADEI CAPITAL",
@@ -63,16 +63,16 @@
     "nb_titres": 12568130,
     "poids_marche": 0.53,
     "beta": 0.48,
-    "liquidite": 583156.0,
+    "liquidite": 587418.0,
     "haut_52s": 475.0,
     "bas_52s": 396.0,
     "cours_cible": null,
     "per": 27.0,
     "potentiel": null,
     "signal_ana": "PRUDENCE",
-    "perf_1an": -6.66,
+    "perf_1an": -7.09,
     "cap_fmt": "5.39 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "BALIMA": {
     "nom_bvc": "BALIMA",
@@ -97,7 +97,7 @@
     "signal_ana": "N/A",
     "perf_1an": -16.14,
     "cap_fmt": "333.45 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Immr Invest": {
     "nom_bvc": "IMMORENTE INVEST",
@@ -113,16 +113,16 @@
     "nb_titres": 9007000,
     "poids_marche": 0.08,
     "beta": 0.26,
-    "liquidite": 363535.0,
+    "liquidite": 363132.0,
     "haut_52s": 94.0,
     "bas_52s": 86.73,
     "cours_cible": null,
     "per": 12.0,
     "potentiel": null,
     "signal_ana": "ACHAT",
-    "perf_1an": 2.87,
+    "perf_1an": 4.64,
     "cap_fmt": "817.39 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Cartier Saada": {
     "nom_bvc": "CARTIER SAADA",
@@ -138,16 +138,16 @@
     "nb_titres": 5265000,
     "poids_marche": 0.01,
     "beta": 1.18,
-    "liquidite": 141989.0,
+    "liquidite": 149321.0,
     "haut_52s": 42.8,
     "bas_52s": 22.96,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -39.85,
+    "perf_1an": -39.47,
     "cap_fmt": "121.09 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "COSUMAR": {
     "nom_bvc": "COSUMAR",
@@ -163,16 +163,16 @@
     "nb_titres": 94487143,
     "poids_marche": 1.71,
     "beta": 1.04,
-    "liquidite": 4116322.0,
+    "liquidite": 3716774.0,
     "haut_52s": 266.0,
     "bas_52s": 150.35,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -29.08,
+    "perf_1an": -30.43,
     "cap_fmt": "17.20 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Dari Couspate": {
     "nom_bvc": "DARI COUSPATE",
@@ -188,16 +188,16 @@
     "nb_titres": 298375,
     "poids_marche": 0.12,
     "beta": -0.01,
-    "liquidite": 548904.0,
+    "liquidite": 546457.0,
     "haut_52s": 4300.0,
-    "bas_52s": 3338.0,
+    "bas_52s": 3350.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 25.07,
+    "perf_1an": 25.37,
     "cap_fmt": "1.25 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Lesieur Cristal": {
     "nom_bvc": "LESIEUR CRISTAL",
@@ -213,16 +213,16 @@
     "nb_titres": 27631510,
     "poids_marche": 0.84,
     "beta": 0.33,
-    "liquidite": 416046.0,
+    "liquidite": 415654.0,
     "haut_52s": 425.0,
     "bas_52s": 270.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 10.37,
+    "perf_1an": 10.73,
     "cap_fmt": "8.48 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Mutandis": {
     "nom_bvc": "MUTANDIS SCA",
@@ -238,16 +238,16 @@
     "nb_titres": 9246737,
     "poids_marche": 0.21,
     "beta": 0.93,
-    "liquidite": 682469.0,
+    "liquidite": 640368.0,
     "haut_52s": 318.0,
     "bas_52s": 225.0,
     "cours_cible": null,
     "per": 21.0,
     "potentiel": null,
     "signal_ana": "CONSERVER",
-    "perf_1an": -20.52,
+    "perf_1an": -22.57,
     "cap_fmt": "2.09 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Unimer": {
     "nom_bvc": "UNIMER",
@@ -272,7 +272,7 @@
     "signal_ana": "N/A",
     "perf_1an": 2.91,
     "cap_fmt": "2.02 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "2L SAH J01JAN2026": {
     "nom_bvc": "2L SAH J01JAN2026",
@@ -297,7 +297,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "3.53 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "AFMA": {
     "nom_bvc": "AFMA",
@@ -313,16 +313,16 @@
     "nb_titres": 1000000,
     "poids_marche": 0.13,
     "beta": 0.11,
-    "liquidite": 640205.0,
+    "liquidite": 639827.0,
     "haut_52s": 1435.0,
     "bas_52s": 1114.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -8.75,
+    "perf_1an": -6.6,
     "cap_fmt": "1.26 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Agma": {
     "nom_bvc": "AGMA",
@@ -347,7 +347,7 @@
     "signal_ana": "CONSERVER",
     "perf_1an": -4.15,
     "cap_fmt": "1.34 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "ATLANTASANAD": {
     "nom_bvc": "ATLANTASANAD",
@@ -363,16 +363,16 @@
     "nb_titres": 60283595,
     "poids_marche": 0.74,
     "beta": 1.01,
-    "liquidite": 1417709.0,
+    "liquidite": 1171310.0,
     "haut_52s": 163.45,
     "bas_52s": 122.5,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -11.9,
+    "perf_1an": -11.79,
     "cap_fmt": "7.45 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Sanlam Maroc": {
     "nom_bvc": "SANLAM MAROC",
@@ -388,16 +388,16 @@
     "nb_titres": 4116874,
     "poids_marche": 1.18,
     "beta": 0.63,
-    "liquidite": 120288.0,
+    "liquidite": 120635.0,
     "haut_52s": 3140.0,
     "bas_52s": 1781.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 61.83,
+    "perf_1an": 62.19,
     "cap_fmt": "11.94 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Wafa Assur": {
     "nom_bvc": "WAFA ASSURANCE",
@@ -413,16 +413,16 @@
     "nb_titres": 3500000,
     "poids_marche": 1.79,
     "beta": 0.85,
-    "liquidite": 2363581.0,
+    "liquidite": 2363007.0,
     "haut_52s": 6000.0,
     "bas_52s": 4558.0,
     "cours_cible": 6400.0,
     "per": null,
     "potentiel": 24.27,
     "signal_ana": "ACHAT FORT",
-    "perf_1an": -1.67,
+    "perf_1an": -4.63,
     "cap_fmt": "18.02 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Afric Indus": {
     "nom_bvc": "AFRIC INDUSTRIES SA",
@@ -438,16 +438,16 @@
     "nb_titres": 291500,
     "poids_marche": 0.01,
     "beta": 0.51,
-    "liquidite": 217583.0,
+    "liquidite": 214991.0,
     "haut_52s": 361.0,
     "bas_52s": 319.5,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -1.39,
+    "perf_1an": -1.02,
     "cap_fmt": "95.17 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Aluminium Maroc": {
     "nom_bvc": "ALUMINIUM DU MAROC",
@@ -463,16 +463,16 @@
     "nb_titres": 465954,
     "poids_marche": 0.08,
     "beta": 0.41,
-    "liquidite": 383609.0,
+    "liquidite": 382253.0,
     "haut_52s": 1989.0,
     "bas_52s": 1653.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -10.67,
+    "perf_1an": -9.87,
     "cap_fmt": "825.20 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Ciments Maroc": {
     "nom_bvc": "CIMENTS DU MAROC",
@@ -488,16 +488,16 @@
     "nb_titres": 14436004,
     "poids_marche": 2.38,
     "beta": 1.09,
-    "liquidite": 6682513.0,
+    "liquidite": 6689868.0,
     "haut_52s": 2150.0,
     "bas_52s": 1581.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -21.21,
+    "perf_1an": -20.88,
     "cap_fmt": "23.96 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Colorado": {
     "nom_bvc": "COLORADO",
@@ -513,16 +513,16 @@
     "nb_titres": 16117611,
     "poids_marche": 0.12,
     "beta": 1.12,
-    "liquidite": 67562.0,
+    "liquidite": 68430.0,
     "haut_52s": 103.65,
     "bas_52s": 61.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 27.87,
+    "perf_1an": 27.66,
     "cap_fmt": "1.26 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Holcim Maroc S.A": {
     "nom_bvc": "Holcim Maroc S.A",
@@ -547,7 +547,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "40.68 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Jet Contractors": {
     "nom_bvc": "JET CONTRACTORS",
@@ -563,16 +563,16 @@
     "nb_titres": 3029522,
     "poids_marche": 0.62,
     "beta": 1.91,
-    "liquidite": 2690332.0,
+    "liquidite": 2885294.0,
     "haut_52s": 2850.0,
     "bas_52s": 1980.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 0.73,
+    "perf_1an": -3.74,
     "cap_fmt": "6.24 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "SGTM": {
     "nom_bvc": "SGTM S.A",
@@ -588,7 +588,7 @@
     "nb_titres": 60000000,
     "poids_marche": 3.99,
     "beta": 1.88,
-    "liquidite": 6945176.0,
+    "liquidite": 6732581.0,
     "haut_52s": 950.0,
     "bas_52s": 461.95,
     "cours_cible": null,
@@ -597,7 +597,7 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": null,
     "cap_fmt": "40.21 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Sonasid": {
     "nom_bvc": "SONASID",
@@ -613,16 +613,16 @@
     "nb_titres": 3900000,
     "poids_marche": 0.75,
     "beta": 1.8,
-    "liquidite": 1759256.0,
+    "liquidite": 1683412.0,
     "haut_52s": 2650.0,
     "bas_52s": 1684.0,
     "cours_cible": 1300.0,
     "per": null,
     "potentiel": -32.82,
     "signal_ana": "VENTE",
-    "perf_1an": -22.48,
+    "perf_1an": -21.66,
     "cap_fmt": "7.55 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "TGCC": {
     "nom_bvc": "TGCC S.A",
@@ -638,16 +638,16 @@
     "nb_titres": 34674332,
     "poids_marche": 2.56,
     "beta": 1.64,
-    "liquidite": 10445549.0,
+    "liquidite": 10218228.0,
     "haut_52s": 1082.0,
     "bas_52s": 676.0,
     "cours_cible": null,
     "per": 29.0,
     "potentiel": null,
     "signal_ana": "PRUDENCE",
-    "perf_1an": -25.5,
+    "perf_1an": -23.99,
     "cap_fmt": "25.83 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Attijariwafa": {
     "nom_bvc": "ATTIJARIWAFA BANK",
@@ -663,16 +663,16 @@
     "nb_titres": 215140839,
     "poids_marche": 14.52,
     "beta": 0.97,
-    "liquidite": 17910617.0,
+    "liquidite": 17827751.0,
     "haut_52s": 789.9,
     "bas_52s": 665.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -6.48,
+    "perf_1an": -5.29,
     "cap_fmt": "146.30 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "BOA": {
     "nom_bvc": "BANK OF AFRICA",
@@ -688,16 +688,16 @@
     "nb_titres": 220281881,
     "poids_marche": 4.05,
     "beta": 0.99,
-    "liquidite": 3741584.0,
-    "haut_52s": 274.9,
+    "liquidite": 3394206.0,
+    "haut_52s": 271.0,
     "bas_52s": 185.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -28.97,
+    "perf_1an": -31.7,
     "cap_fmt": "40.77 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "BCP": {
     "nom_bvc": "BCP",
@@ -713,16 +713,16 @@
     "nb_titres": 203312473,
     "poids_marche": 5.0,
     "beta": 0.81,
-    "liquidite": 15204221.0,
+    "liquidite": 15085140.0,
     "haut_52s": 335.0,
     "bas_52s": 230.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -23.81,
+    "perf_1an": -25.08,
     "cap_fmt": "50.42 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "BMCI": {
     "nom_bvc": "BMCI",
@@ -738,16 +738,16 @@
     "nb_titres": 13279286,
     "poids_marche": 0.78,
     "beta": 0.88,
-    "liquidite": 892424.0,
+    "liquidite": 842518.0,
     "haut_52s": 645.0,
     "bas_52s": 520.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -0.9,
+    "perf_1an": -3.2,
     "cap_fmt": "7.83 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "CDM": {
     "nom_bvc": "CDM",
@@ -763,16 +763,16 @@
     "nb_titres": 11626499,
     "poids_marche": 1.12,
     "beta": 1.03,
-    "liquidite": 9694853.0,
+    "liquidite": 6627099.0,
     "haut_52s": 1149.0,
     "bas_52s": 940.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -3.88,
+    "perf_1an": -5.73,
     "cap_fmt": "11.29 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "CFG Bank": {
     "nom_bvc": "CFG BANK",
@@ -788,16 +788,16 @@
     "nb_titres": 35007960,
     "poids_marche": 0.68,
     "beta": 0.97,
-    "liquidite": 2283765.0,
+    "liquidite": 2308731.0,
     "haut_52s": 261.9,
     "bas_52s": 190.0,
     "cours_cible": null,
     "per": 38.0,
     "potentiel": null,
     "signal_ana": "PRUDENCE",
-    "perf_1an": -20.73,
+    "perf_1an": -20.33,
     "cap_fmt": "6.86 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "CIH": {
     "nom_bvc": "CIH",
@@ -813,16 +813,16 @@
     "nb_titres": 35605624,
     "poids_marche": 1.22,
     "beta": 1.06,
-    "liquidite": 3083821.0,
+    "liquidite": 3080879.0,
     "haut_52s": 450.0,
     "bas_52s": 339.5,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -13.97,
+    "perf_1an": -15.44,
     "cap_fmt": "12.28 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Oulmes": {
     "nom_bvc": "OULMES",
@@ -847,7 +847,7 @@
     "signal_ana": "N/A",
     "perf_1an": -5.25,
     "cap_fmt": "2.29 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Ste Boissons": {
     "nom_bvc": "SOCIETE DES BOISSONS DU MAROC",
@@ -863,16 +863,16 @@
     "nb_titres": 2829653,
     "poids_marche": 0.61,
     "beta": 0.41,
-    "liquidite": 582872.0,
+    "liquidite": 548307.0,
     "haut_52s": 2450.0,
     "bas_52s": 1945.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 7.42,
+    "perf_1an": 10.9,
     "cap_fmt": "6.13 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Maghreb Oxygene": {
     "nom_bvc": "MAGHREB OXYGENE",
@@ -897,7 +897,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "296.56 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "SNEP": {
     "nom_bvc": "SNEP",
@@ -913,16 +913,16 @@
     "nb_titres": 2400000,
     "poids_marche": 0.08,
     "beta": 1.26,
-    "liquidite": 305895.0,
+    "liquidite": 304873.0,
     "haut_52s": 700.0,
     "bas_52s": 304.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -55.14,
+    "perf_1an": -54.99,
     "cap_fmt": "756.00 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Auto Hall": {
     "nom_bvc": "AUTO HALL",
@@ -938,16 +938,16 @@
     "nb_titres": 50294528,
     "poids_marche": 0.33,
     "beta": 1.06,
-    "liquidite": 708695.0,
+    "liquidite": 712622.0,
     "haut_52s": 107.0,
     "bas_52s": 65.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -19.51,
+    "perf_1an": -22.02,
     "cap_fmt": "3.29 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Auto Nejma": {
     "nom_bvc": "AUTO NEJMA",
@@ -963,7 +963,7 @@
     "nb_titres": 1023264,
     "poids_marche": 0.55,
     "beta": -0.03,
-    "liquidite": 59124.0,
+    "liquidite": 58450.0,
     "haut_52s": 5400.0,
     "bas_52s": 2064.0,
     "cours_cible": 7000.0,
@@ -972,7 +972,7 @@
     "signal_ana": "ACHAT FORT",
     "perf_1an": 161.12,
     "cap_fmt": "5.53 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Ennakl": {
     "nom_bvc": "ENNAKL",
@@ -988,16 +988,16 @@
     "nb_titres": 30000000,
     "poids_marche": 0.14,
     "beta": 1.08,
-    "liquidite": 130233.0,
+    "liquidite": 128622.0,
     "haut_52s": 66.0,
     "bas_52s": 32.07,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 51.86,
+    "perf_1an": 47.42,
     "cap_fmt": "1.46 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "FENIE BROSSETTE": {
     "nom_bvc": "FENIE BROSSETTE",
@@ -1013,16 +1013,16 @@
     "nb_titres": 1438984,
     "poids_marche": 0.04,
     "beta": 2.17,
-    "liquidite": 110385.0,
+    "liquidite": 102518.0,
     "haut_52s": 571.9,
     "bas_52s": 263.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -39.61,
+    "perf_1an": -35.83,
     "cap_fmt": "385.50 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "LABEL VIE": {
     "nom_bvc": "LABEL VIE",
@@ -1038,16 +1038,16 @@
     "nb_titres": 2893957,
     "poids_marche": 1.05,
     "beta": 0.69,
-    "liquidite": 6643560.0,
+    "liquidite": 6776497.0,
     "haut_52s": 5000.0,
     "bas_52s": 3522.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -26.42,
+    "perf_1an": -23.64,
     "cap_fmt": "10.56 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Rebab Company": {
     "nom_bvc": "REBAB COMPANY",
@@ -1063,16 +1063,16 @@
     "nb_titres": 176456,
     "poids_marche": 0.0,
     "beta": 0.1,
-    "liquidite": 19336.0,
+    "liquidite": 18642.0,
     "haut_52s": 114.35,
     "bas_52s": 70.62,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 3.62,
+    "perf_1an": 12.68,
     "cap_fmt": "15.89 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Stokvis Nord Afr": {
     "nom_bvc": "STOKVIS NORD AFRIQUE",
@@ -1097,7 +1097,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "1.19 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "DELATTRE LEVIVIER MAROC": {
     "nom_bvc": "DELATTRE LEVIVIER MAROC",
@@ -1122,7 +1122,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "70.00 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "STROC Indus": {
     "nom_bvc": "STROC INDUSTRIE",
@@ -1138,16 +1138,16 @@
     "nb_titres": 1248515,
     "poids_marche": 0.02,
     "beta": 2.3,
-    "liquidite": 402194.0,
+    "liquidite": 397765.0,
     "haut_52s": 336.0,
     "bas_52s": 158.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -14.59,
+    "perf_1an": -11.84,
     "cap_fmt": "233.35 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Alliances": {
     "nom_bvc": "ALLIANCES",
@@ -1163,16 +1163,16 @@
     "nb_titres": 22078588,
     "poids_marche": 0.81,
     "beta": 2.1,
-    "liquidite": 4699916.0,
+    "liquidite": 4668711.0,
     "haut_52s": 620.1,
     "bas_52s": 360.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -23.91,
+    "perf_1an": -22.96,
     "cap_fmt": "8.15 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Addoha": {
     "nom_bvc": "DOUJA PROM ADDOHA",
@@ -1188,16 +1188,16 @@
     "nb_titres": 402551254,
     "poids_marche": 1.38,
     "beta": 2.03,
-    "liquidite": 5414090.0,
+    "liquidite": 5361660.0,
     "haut_52s": 43.6,
     "bas_52s": 26.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -7.03,
+    "perf_1an": -4.17,
     "cap_fmt": "13.89 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Res.Dar Saada": {
     "nom_bvc": "RESIDENCES DAR SAADA",
@@ -1213,16 +1213,16 @@
     "nb_titres": 26208850,
     "poids_marche": 0.43,
     "beta": 2.29,
-    "liquidite": 6630027.0,
+    "liquidite": 6583692.0,
     "haut_52s": 195.4,
     "bas_52s": 128.7,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 15.02,
+    "perf_1an": 16.82,
     "cap_fmt": "4.38 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Risma": {
     "nom_bvc": "RISMA",
@@ -1238,16 +1238,16 @@
     "nb_titres": 16012132,
     "poids_marche": 0.51,
     "beta": 1.18,
-    "liquidite": 3367325.0,
+    "liquidite": 2962481.0,
     "haut_52s": 434.0,
     "bas_52s": 290.1,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -9.99,
+    "perf_1an": -10.86,
     "cap_fmt": "5.12 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Disty Technolog": {
     "nom_bvc": "DISTY TECHNOLOGIES",
@@ -1263,16 +1263,16 @@
     "nb_titres": 998110,
     "poids_marche": 0.03,
     "beta": 1.14,
-    "liquidite": 226358.0,
+    "liquidite": 176167.0,
     "haut_52s": 435.0,
     "bas_52s": 300.0,
     "cours_cible": null,
     "per": 32.0,
     "potentiel": null,
     "signal_ana": "PRUDENCE",
-    "perf_1an": 2.43,
+    "perf_1an": 3.66,
     "cap_fmt": "339.36 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "DISWAY": {
     "nom_bvc": "DISWAY",
@@ -1288,16 +1288,16 @@
     "nb_titres": 1885762,
     "poids_marche": 0.14,
     "beta": 0.61,
-    "liquidite": 222584.0,
+    "liquidite": 220793.0,
     "haut_52s": 1000.0,
     "bas_52s": 722.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 5.82,
+    "perf_1an": 6.65,
     "cap_fmt": "1.45 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "HPS": {
     "nom_bvc": "HPS",
@@ -1322,7 +1322,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "4.37 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "IBMaroc": {
     "nom_bvc": "IB MAROC.COM",
@@ -1338,16 +1338,16 @@
     "nb_titres": 417486,
     "poids_marche": 0.0,
     "beta": 1.38,
-    "liquidite": 53625.0,
-    "haut_52s": 95.87,
+    "liquidite": 53378.0,
+    "haut_52s": 89.0,
     "bas_52s": 52.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -25.14,
+    "perf_1an": -15.44,
     "cap_fmt": "25.47 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "INVOLYS": {
     "nom_bvc": "INVOLYS",
@@ -1363,16 +1363,16 @@
     "nb_titres": 382716,
     "poids_marche": 0.0,
     "beta": 1.46,
-    "liquidite": 32017.0,
+    "liquidite": 32072.0,
     "haut_52s": 253.0,
     "bas_52s": 120.05,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -20.65,
+    "perf_1an": -19.86,
     "cap_fmt": "49.64 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "M2M Group": {
     "nom_bvc": "M2M Group",
@@ -1388,16 +1388,16 @@
     "nb_titres": 647777,
     "poids_marche": 0.02,
     "beta": 0.77,
-    "liquidite": 157224.0,
+    "liquidite": 150064.0,
     "haut_52s": 549.0,
     "bas_52s": 360.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -29.85,
+    "perf_1an": -26.55,
     "cap_fmt": "248.75 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Microdata": {
     "nom_bvc": "MICRODATA",
@@ -1413,16 +1413,16 @@
     "nb_titres": 1680000,
     "poids_marche": 0.12,
     "beta": 0.72,
-    "liquidite": 103211.0,
+    "liquidite": 101139.0,
     "haut_52s": 1000.0,
     "bas_52s": 676.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -11.38,
+    "perf_1an": -17.78,
     "cap_fmt": "1.24 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "S2M": {
     "nom_bvc": "S.M MONETIQUE",
@@ -1438,16 +1438,16 @@
     "nb_titres": 812070,
     "poids_marche": 0.04,
     "beta": 1.27,
-    "liquidite": 460630.0,
+    "liquidite": 238339.0,
     "haut_52s": 785.3,
     "bas_52s": 451.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -28.4,
+    "perf_1an": -23.63,
     "cap_fmt": "372.74 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Managem": {
     "nom_bvc": "MANAGEM",
@@ -1472,7 +1472,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "156.50 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "CMT": {
     "nom_bvc": "MINIERE TOUISSIT",
@@ -1497,7 +1497,7 @@
     "signal_ana": "N/A",
     "perf_1an": 85.11,
     "cap_fmt": "7.31 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "SMI": {
     "nom_bvc": "SMI",
@@ -1513,16 +1513,16 @@
     "nb_titres": 1645090,
     "poids_marche": 0.97,
     "beta": 1.63,
-    "liquidite": 9766374.0,
+    "liquidite": 9690083.0,
     "haut_52s": 12660.0,
     "bas_52s": 2384.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 150.37,
+    "perf_1an": 138.44,
     "cap_fmt": "9.81 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Afriquia Gaz": {
     "nom_bvc": "AFRIQUIA GAZ",
@@ -1538,16 +1538,16 @@
     "nb_titres": 3437500,
     "poids_marche": 1.26,
     "beta": 0.61,
-    "liquidite": 505946.0,
+    "liquidite": 506004.0,
     "haut_52s": 4488.0,
     "bas_52s": 3650.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -16.36,
+    "perf_1an": -16.16,
     "cap_fmt": "12.68 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "SAMIR": {
     "nom_bvc": "SAMIR",
@@ -1572,7 +1572,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "1.52 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Total Maroc": {
     "nom_bvc": "TOTALENERGIES MARKETING MAROC",
@@ -1588,16 +1588,16 @@
     "nb_titres": 8960000,
     "poids_marche": 1.34,
     "beta": 0.92,
-    "liquidite": 1922528.0,
+    "liquidite": 1923208.0,
     "haut_52s": 1900.0,
     "bas_52s": 1435.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -9.51,
+    "perf_1an": -7.36,
     "cap_fmt": "13.53 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "PROMOPHARM": {
     "nom_bvc": "PROMOPHARM S.A.",
@@ -1622,7 +1622,7 @@
     "signal_ana": "N/A",
     "perf_1an": 17.46,
     "cap_fmt": "1.34 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "SOTHEMA": {
     "nom_bvc": "SOTHEMA",
@@ -1647,7 +1647,7 @@
     "signal_ana": "N/A",
     "perf_1an": -69.25,
     "cap_fmt": "14.17 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "MED PAPER": {
     "nom_bvc": "MED PAPER",
@@ -1672,7 +1672,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "121.99 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Cash Plus": {
     "nom_bvc": "CASH PLUS S.A",
@@ -1688,7 +1688,7 @@
     "nb_titres": 24553090,
     "poids_marche": 0.57,
     "beta": 1.08,
-    "liquidite": 881659.0,
+    "liquidite": 887880.0,
     "haut_52s": 321.9,
     "bas_52s": 219.95,
     "cours_cible": null,
@@ -1697,7 +1697,7 @@
     "signal_ana": "PRUDENCE",
     "perf_1an": null,
     "cap_fmt": "5.78 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "DIAC Salaf": {
     "nom_bvc": "DIAC SALAF",
@@ -1722,7 +1722,7 @@
     "signal_ana": "ACHAT FORT",
     "perf_1an": null,
     "cap_fmt": "27.65 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "EQDOM": {
     "nom_bvc": "EQDOM",
@@ -1747,7 +1747,7 @@
     "signal_ana": "ACHAT FORT",
     "perf_1an": 49.52,
     "cap_fmt": "2.62 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "SALAFIN": {
     "nom_bvc": "SALAFIN",
@@ -1763,16 +1763,16 @@
     "nb_titres": 3124119,
     "poids_marche": 0.13,
     "beta": 0.46,
-    "liquidite": 10928171.0,
+    "liquidite": 10769293.0,
     "haut_52s": 700.0,
     "bas_52s": 423.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -30.19,
+    "perf_1an": -31.09,
     "cap_fmt": "1.34 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Maroc Leasing": {
     "nom_bvc": "MAROC LEASING",
@@ -1797,7 +1797,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "1.01 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Delta Holding": {
     "nom_bvc": "DELTA HOLDING",
@@ -1813,16 +1813,16 @@
     "nb_titres": 87600000,
     "poids_marche": 0.47,
     "beta": 1.74,
-    "liquidite": 604655.0,
+    "liquidite": 576521.0,
     "haut_52s": 89.0,
     "bas_52s": 53.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -31.9,
+    "perf_1an": -32.2,
     "cap_fmt": "4.75 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Zellidja": {
     "nom_bvc": "ZELLIDJA S.A",
@@ -1838,16 +1838,16 @@
     "nb_titres": 572849,
     "poids_marche": 0.01,
     "beta": 0.62,
-    "liquidite": 10963.0,
+    "liquidite": 11632.0,
     "haut_52s": 314.95,
     "bas_52s": 168.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": 29.04,
+    "perf_1an": 43.79,
     "cap_fmt": "139.20 M MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "IAM": {
     "nom_bvc": "ITISSALAT AL-MAGHRIB",
@@ -1872,7 +1872,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "81.05 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "CTM": {
     "nom_bvc": "CTM",
@@ -1888,16 +1888,16 @@
     "nb_titres": 1225978,
     "poids_marche": 0.11,
     "beta": 1.03,
-    "liquidite": 117749.0,
+    "liquidite": 112618.0,
     "haut_52s": 1027.0,
     "bas_52s": 752.0,
     "cours_cible": null,
     "per": null,
     "potentiel": null,
     "signal_ana": "N/A",
-    "perf_1an": -8.82,
+    "perf_1an": -7.83,
     "cap_fmt": "1.06 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "Akdital": {
     "nom_bvc": "VICENNE",
@@ -1913,16 +1913,16 @@
     "nb_titres": 10258850,
     "poids_marche": 0.35,
     "beta": 1.47,
-    "liquidite": 7679850.0,
+    "liquidite": 6547727.0,
     "haut_52s": 1600.0,
     "bas_52s": 980.0,
     "cours_cible": null,
     "per": 35.0,
     "potentiel": null,
     "signal_ana": "PRUDENCE",
-    "perf_1an": -22.28,
+    "perf_1an": -22.76,
     "cap_fmt": "3.55 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "T2S GROUP HOLDING": {
     "nom_bvc": "T2S GROUP HOLDING",
@@ -1947,7 +1947,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "5.19 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   },
   "CMGP Group": {
     "nom_bvc": "CMGP GROUP",
@@ -1963,15 +1963,15 @@
     "nb_titres": 17000900,
     "poids_marche": 0.54,
     "beta": 1.52,
-    "liquidite": 1256071.0,
+    "liquidite": 1253339.0,
     "haut_52s": 439.95,
     "bas_52s": 311.05,
     "cours_cible": null,
     "per": 39.0,
     "potentiel": null,
     "signal_ana": "PRUDENCE",
-    "perf_1an": -10.14,
+    "perf_1an": -10.36,
     "cap_fmt": "5.44 Mrd MAD",
-    "mise_a_jour": "30/07/2026 09:26"
+    "mise_a_jour": "30/07/2026 09:34"
   }
 }
