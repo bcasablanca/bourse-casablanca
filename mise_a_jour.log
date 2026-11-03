@@ -1117,3 +1117,11 @@
 2026-10-31 13:14:31  INFO        ...   Telechargement : 2026-06-03 -> 2026-10-30
 2026-10-31 13:44:20  INFO        [OK]  216 lignes ajoutees dans BCASAD.CSV
 2026-10-31 13:44:20  INFO        [OK]  Mise a jour terminee !
+2026-11-03 14:48:11  INFO        ...   Derniere date CSV : 2026-06-02
+2026-11-03 14:48:11  INFO        ...   110 seances manquantes : 2026-06-03 -> 2026-11-03
+2026-11-03 14:48:11  WARNING   [WAR] Bourse cloture a 15h30. Donnees du jour peut-etre incompletes.
+2026-11-03 14:48:11  INFO        ...   Recuperation de la liste des actions ...
+2026-11-03 14:48:11  INFO        [OK]  81 actions trouvees.
+2026-11-03 14:48:11  INFO        ...   Telechargement : 2026-06-03 -> 2026-11-03
+2026-11-03 15:20:03  INFO        [OK]  220 lignes ajoutees dans BCASAD.CSV
+2026-11-03 15:20:03  INFO        [OK]  Mise a jour terminee !
