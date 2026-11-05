@@ -10,7 +10,8 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
-DOSSIER   = Path(".")
+# Dossier des donnees : celui du script (ou variable BOURSE_DOSSIER)
+DOSSIER   = Path(os.environ.get("BOURSE_DOSSIER") or Path(__file__).resolve().parent)
 CSV_PATH  = DOSSIER / "BCASAD.CSV"
 HTML_PATH = DOSSIER / "bourse_casablanca.html"
 SEP = "=" * 62
