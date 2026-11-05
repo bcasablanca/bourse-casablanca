@@ -2,8 +2,9 @@ name: Mise a jour dashboard bourse
 
 on:
   schedule:
-    - cron: "0 7 * * 2-6"  # 8h00 Maroc (UTC+1) mardi-samedi
-  workflow_dispatch:         # Bouton pour lancer manuellement
+    - cron: "0 16 * * 1-5"   # 17h00 Maroc (UTC+1), apres la cloture, lundi-vendredi
+    - cron: "0 7 * * 2-6"    # 08h00 Maroc le lendemain : rattrapage de securite
+  workflow_dispatch:          # Bouton pour lancer manuellement
 
 jobs:
   update:
@@ -21,14 +22,15 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install casased pandas requests beautifulsoup4 lxml
+        run: pip install requests certifi
+
+      # Plus de continue-on-error : si l'API BVC ne repond pas, le job
+      # echoue et GitHub vous previent par e-mail (fini les pannes muettes).
+      - name: Script 2 - Mise a jour CSV
+        run: python 2_mise_a_jour_quotidienne.py
 
       - name: Script 4 - Fondamentaux
         run: python 4_recuperer_fondamentaux.py
-        continue-on-error: true
-
-      - name: Script 2 - Mise a jour CSV
-        run: python 2_mise_a_jour_quotidienne.py
         continue-on-error: true
 
       - name: Script 3 - Generation HTML
@@ -41,6 +43,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add BCASAD.CSV fondamentaux.json bourse_casablanca.html index.html
           git diff --staged --quiet || git commit -m "Mise a jour $(date +%Y-%m-%d)"
           git push
