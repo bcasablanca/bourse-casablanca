@@ -46,7 +46,14 @@ BASE = "https://www.casablanca-bourse.com"
 API_HIST = BASE + "/api/boursenova/stock-historical"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
-TZ_MAROC = timezone(timedelta(hours=1))
+# Heure legale du Maroc (GMT+1 ou GMT+0 selon la periode : Ramadan, changements
+# officiels...). La base officielle des fuseaux suit ces changements ; a defaut
+# (module tzdata absent sous Windows), repli sur GMT+1.
+try:
+    from zoneinfo import ZoneInfo
+    TZ_MAROC = ZoneInfo("Africa/Casablanca")
+except Exception:
+    TZ_MAROC = timezone(timedelta(hours=1))
 
 # -----------------------------------------------------------------------------
 # Correspondance symbole BVC -> nom utilise dans BCASAD.CSV / fondamentaux.json
