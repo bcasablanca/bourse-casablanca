@@ -50,5 +50,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add BCASAD.CSV fondamentaux.json bourse_casablanca.html index.html
           git diff --staged --quiet || git commit -m "Mise a jour $(date +%Y-%m-%d)"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
