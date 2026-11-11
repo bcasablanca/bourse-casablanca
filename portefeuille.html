@@ -558,8 +558,8 @@ function dateFond(s){
 function libelleLive(l){
   const j = l.date ? l.date.split('-').reverse().slice(0,2).join('/') : '';
   return l.statut==='open'
-    ? 'Séance en cours · cours de '+(l.heure||'?')+' (différé 15 min)'
-    : 'Séance du '+j+' · '+(l.heure||'?')+(l.statut==='closed'?' (clôture)':'');
+    ? '🟢 Séance en cours · '+(l.heure||'?')+' (différé 15 min)'
+    : (l.statut==='closed' ? 'Clôture du '+j : 'Séance du '+j+' · '+(l.heure||'?'));
 }
 async function chargerCours(manuel){
   if(coursMeta.loading) return;
@@ -580,7 +580,7 @@ async function chargerCours(manuel){
     });
     res = {map, maj: libelleLive(live)};
   } else if(res){
-    res.maj = 'màj '+res.maj;
+    res.maj = 'Cours du '+res.maj;
   }
   if(!res){
     coursMeta.err = 'Cours du jour indisponibles (pas de connexion ?) : derniers prix connus affichés.';
@@ -602,7 +602,7 @@ function renderCoursInfo(){
   if(coursMeta.loading){ el.textContent = 'Cours BVC : actualisation…'; return; }
   if(coursMeta.err){ el.textContent = '⚠️ '+coursMeta.err; return; }
   const nonTrouves = db.actifs.filter(a=>!a.auto).map(a=>a.id);
-  el.innerHTML = '<span>Cours BVC'+(coursMeta.maj?' · '+esc(coursMeta.maj):'')+'</span>'+
+  el.innerHTML = '<span>'+esc(coursMeta.maj||'Cours BVC')+'</span>'+
     (nonTrouves.length ? '<span style="color:var(--gold)">Prix manuel : '+esc(nonTrouves.join(', '))+'</span>' : '');
 }
 // Actualisation : au retour sur la page, et toutes les 5 min tant qu'elle est affichée
