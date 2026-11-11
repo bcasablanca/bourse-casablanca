@@ -601,15 +601,28 @@ async function premierJson(urls){
   for(const u of urls){ try{ return await fetchJson(u); }catch(e){ /* source suivante */ } }
   return null;
 }
-// « 11/11/2026 08:03 » (heure du Maroc = heure de l'appareil) → Date
+// « 11/11/2026 08:03 » (heure du Maroc) → Date absolue
 function dateFond(s){
   const m=/(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/.exec(s||''); if(!m) return null;
-  return new Date(+m[3], +m[2]-1, +m[1], +m[4], +m[5]);
+  const dec=decalageMaroc();
+  if(dec==null) return new Date(+m[3], +m[2]-1, +m[1], +m[4], +m[5]);
+  return new Date(Date.UTC(+m[3], +m[2]-1, +m[1], +m[4], +m[5]) - dec*60000);
 }
-// Heure du relevé, à l'heure de l'appareil (évite tout décalage de fuseau)
+// Heure du relevé : heure du Maroc calculée par le serveur (champ « heure »).
+// On n'utilise PAS le fuseau du navigateur : sur certains téléphones il croit
+// encore le Maroc à GMT+1 et afficherait une heure de trop.
 function heureReleve(l){
+  if(l && /^\d{2}:\d{2}$/.test(l.heure||'')) return l.heure;
   const d = l && l.maj_iso ? new Date(l.maj_iso) : null;
-  return d && !isNaN(d) ? d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}) : (l&&l.heure)||'?';
+  return d && !isNaN(d) ? d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}) : '?';
+}
+// Décalage heure du Maroc − UTC (en minutes), déduit du dernier relevé
+function decalageMaroc(){
+  if(!live || !live.maj_iso || !/^\d{2}:\d{2}$/.test(live.heure||'')) return null;
+  const u=new Date(live.maj_iso); if(isNaN(u)) return null;
+  let diff=(+live.heure.slice(0,2)*60 + +live.heure.slice(3)) - (u.getUTCHours()*60+u.getUTCMinutes());
+  if(diff>720) diff-=1440; if(diff<-720) diff+=1440;
+  return Math.round(diff/60)*60;
 }
 function libelleLive(l){
   const j = l.date ? l.date.split('-').reverse().slice(0,2).join('/') : '';
