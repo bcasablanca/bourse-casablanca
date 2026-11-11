@@ -174,7 +174,7 @@ def calculer_indicateurs(marche, cours_cibles, historique):
     resultats = {}
     proxy = construire_proxy_marche(historique)
     cap_total = sum(d["capitalisation"] for d in marche.values() if d.get("capitalisation"))
-    maj = datetime.now().strftime("%d/%m/%Y %H:%M")
+    maj = datetime.now(bvc.TZ_MAROC).strftime("%d/%m/%Y %H:%M")   # heure du Maroc
 
     for nom, d in marche.items():
         cours, cap = d["cours"], d["capitalisation"]
