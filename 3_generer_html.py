@@ -490,7 +490,8 @@ def main():
 
 # -----------------------------------------------------------------------------
 # Lien vers l'application Portefeuille (portefeuille.html, meme site GitHub)
-#  - bouton "Mon portefeuille" dans l'en-tete, a cote de "Mettre a jour"
+#  - boutons "Seance" (portefeuille.html#seance : cours de la seance, hausses,
+#    baisses, capitaux) et "Portefeuille" dans l'en-tete, a cote de "Mettre a jour"
 #  - lien direct vers une action : index.html#action=<nom>  (ex. #action=Addoha)
 #    utilise par le portefeuille pour ouvrir l'analyse d'une ligne.
 # -----------------------------------------------------------------------------
@@ -502,7 +503,8 @@ LIEN_PTF_CSS = """<style>
 @media(max-width:768px){.ptf-link{padding:7px 10px;font-size:12px}}
 </style>
 """
-LIEN_PTF_BOUTON = '<a class="ptf-link" href="portefeuille.html" title="Ouvrir mon portefeuille">&#x1F4BC; Portefeuille</a>\n    '
+LIEN_PTF_BOUTON = ('<a class="ptf-link" href="portefeuille.html#seance" title="Seance en cours : cours differes 15 min, hausses, baisses, capitaux">&#x23F1; S&eacute;ance</a>\n    '
+                   '<a class="ptf-link" href="portefeuille.html" title="Ouvrir mon portefeuille">&#x1F4BC; Portefeuille</a>\n    ')
 LIEN_PTF_SCRIPT = """<script>
 /* Ouverture directe d'une action : index.html#action=<nom> (lien depuis le portefeuille) */
 (function(){
