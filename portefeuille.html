@@ -47,7 +47,7 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
 .kpi-val{font-family:var(--mono);font-size:.9rem;font-weight:700;font-variant-numeric:tabular-nums}
 .kpi-val.up{color:var(--green)}.kpi-val.down{color:var(--red)}.kpi-val.neu{color:var(--text)}
 .tabs{display:flex;background:var(--s1);border-bottom:1px solid var(--border);flex-shrink:0}
-.tab{flex:1;padding:10px 4px;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);background:none;border:none;cursor:pointer;border-bottom:2px solid transparent;font-family:var(--sans);transition:all .2s}
+.tab{flex:1;padding:10px 2px;font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);background:none;border:none;cursor:pointer;border-bottom:2px solid transparent;font-family:var(--sans);transition:all .2s}
 .tab.active{color:var(--accent);border-bottom-color:var(--accent)}
 .page{display:none;flex:1;overflow-y:auto;padding:12px 16px 80px;-webkit-overflow-scrolling:touch}
 .page.active{display:block}
@@ -88,6 +88,28 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
 .arch-sub{font-size:.68rem;color:var(--muted2);margin-top:2px}
 .arch-body{padding:0 8px 10px}
 .arch-body .sub-title{margin:10px 4px 6px}
+/* Séance */
+.se-head{background:var(--s1);border:1px solid var(--border);border-radius:var(--r);padding:12px;margin-bottom:10px}
+.se-top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.se-stat{font-family:var(--mono);font-size:.78rem;font-weight:700}
+.se-sub{font-size:.7rem;color:var(--muted2);margin-top:4px;line-height:1.45}
+.se-masi{font-family:var(--mono);font-size:1rem;font-weight:700;color:var(--accent)}
+.se-releve{font-size:.7rem;margin-top:6px;color:var(--gold);line-height:1.4}
+.sg3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:10px}
+.sg3 .sb{padding:9px;text-align:center}.sg3 .sbv{font-size:1rem}
+.breadth{display:flex;height:8px;border-radius:99px;overflow:hidden;background:var(--border);margin-bottom:12px}
+.breadth i{display:block;height:100%}
+.top3{display:grid;grid-template-columns:1fr;gap:8px}
+.tl{background:var(--s1);border:1px solid var(--border);border-radius:10px;padding:6px 10px}
+.tl-row{display:flex;justify-content:space-between;gap:8px;padding:5px 0;border-bottom:1px solid var(--border);font-size:.78rem;cursor:pointer}
+.tl-row:last-child{border-bottom:none}
+.tl-nom{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.tl-val{font-family:var(--mono);white-space:nowrap}
+.mine{color:var(--accent)}
+.se-table th{cursor:pointer;user-select:none}
+.se-table th.on{color:var(--accent)}
+.se-table td.nm{text-align:left;max-width:130px;overflow:hidden;text-overflow:ellipsis;font-size:.76rem;font-weight:600}
+.se-search{width:100%;margin-bottom:8px}
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.78);z-index:500;display:none;align-items:flex-end;justify-content:center;backdrop-filter:blur(6px)}
 .modal-overlay.open{display:flex}
 .modal{background:var(--s1);border-radius:20px 20px 0 0;padding:18px 18px calc(18px + env(safe-area-inset-bottom,0px));width:100%;max-width:480px;max-height:90vh;overflow-y:auto;border-top:1px solid var(--border2);animation:slideUp .26s ease}
@@ -163,6 +185,7 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
   </header>
   <div class="tabs">
     <button class="tab active" onclick="switchTab('ptf')">Portefeuille</button>
+    <button class="tab" onclick="switchTab('seance')">Séance</button>
     <button class="tab" onclick="switchTab('detail')">Détail</button>
     <button class="tab" onclick="switchTab('stats')">Stats</button>
     <button class="tab" onclick="switchTab('journal')">Journal</button>
@@ -215,6 +238,22 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
     <div class="arch-row">
       <button class="btn btn-g" onclick="openArchives()">🗄 Archives <span id="nbArch"></span></button>
       <button class="btn btn-a" id="btnCloture" onclick="demanderCloture()">📦 Clôturer 2026</button>
+    </div>
+    <div style="height:70px"></div>
+  </div>
+
+  <div id="page-seance" class="page">
+    <div class="se-head" id="seHead">Chargement de la séance…</div>
+    <div class="sg3" id="seGrid"></div>
+    <div class="breadth" id="seBreadth"></div>
+    <div class="top3" id="seTops"></div>
+    <div class="sec" style="margin-top:16px"><span class="sec-title">Toutes les valeurs</span><span style="font-size:.68rem;color:var(--muted2)">★ = en portefeuille</span></div>
+    <input class="fi se-search" id="seSearch" placeholder="Rechercher une valeur…" oninput="seFiltre=this.value;renderSeanceTable()">
+    <div class="tbl-wrap">
+      <table class="ptf-table se-table">
+        <thead><tr id="seThead"></tr></thead>
+        <tbody id="seBody"></tbody>
+      </table>
     </div>
     <div style="height:70px"></div>
   </div>
@@ -325,6 +364,18 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
     <div class="modal-handle"></div>
     <div id="detailVenduContent"></div>
     <button class="btn btn-g" onclick="closeM('mDetailVendu')">Fermer</button>
+  </div>
+</div>
+
+<!-- CLÉ GITHUB -->
+<div class="modal-overlay" id="mToken">
+  <div class="modal">
+    <div class="modal-handle"></div>
+    <div class="modal-title">🔑 Clé GitHub</div>
+    <div class="info-note">Pour relever les cours à la demande, l'application lance la tâche « Cours de la séance » sur votre GitHub. C'est la même clé que le bouton « Mettre à jour » de Bourse Casa : si vous l'avez déjà saisie là-bas sur cet appareil, elle est reprise automatiquement. Elle reste enregistrée sur cet appareil uniquement.</div>
+    <div class="fg"><label class="fl" for="tokInput">Clé (commence par ghp_ ou github_pat_)</label><input class="fi" id="tokInput" autocomplete="off" spellcheck="false" placeholder="ghp_…"></div>
+    <button class="btn btn-p" onclick="validerToken()">✓ Enregistrer et relever les cours</button>
+    <button class="btn btn-g" onclick="closeM('mToken')">Annuler</button>
   </div>
 </div>
 
@@ -530,11 +581,11 @@ function appliquerCours(d){
   });
   return change;
 }
-async function fetchJson(url){
+async function fetchJson(url, headers){
   const ctl = ('AbortController' in window) ? new AbortController() : null;
   const t = setTimeout(()=>ctl&&ctl.abort(), 9000);
   try{
-    const r = await fetch(url+(url.includes('?')?'&':'?')+'t='+Date.now(), {cache:'no-store', signal: ctl?ctl.signal:undefined});
+    const r = await fetch(url+(url.includes('?')?'&':'?')+'t='+Date.now(), {cache:'no-store', headers: headers||undefined, signal: ctl?ctl.signal:undefined});
     if(!r.ok) throw new Error('HTTP '+r.status);
     return await r.json();
   } finally { clearTimeout(t); }
@@ -555,16 +606,35 @@ function dateFond(s){
   const m=/(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/.exec(s||''); if(!m) return null;
   return new Date(Date.UTC(+m[3], +m[2]-1, +m[1], +m[4]-1, +m[5]));
 }
+// Heure du relevé, à l'heure de l'appareil (évite tout décalage de fuseau)
+function heureReleve(l){
+  const d = l && l.maj_iso ? new Date(l.maj_iso) : null;
+  return d && !isNaN(d) ? d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}) : (l&&l.heure)||'?';
+}
 function libelleLive(l){
   const j = l.date ? l.date.split('-').reverse().slice(0,2).join('/') : '';
   return l.statut==='open'
-    ? '🟢 Séance en cours · '+(l.heure||'?')+' (différé 15 min)'
-    : (l.statut==='closed' ? 'Clôture du '+j : 'Séance du '+j+' · '+(l.heure||'?'));
+    ? '🟢 Séance en cours · relevé de '+heureReleve(l)+' (différé 15 min)'
+    : (l.statut==='closed' ? 'Clôture du '+j : 'Séance du '+j+' · '+heureReleve(l));
 }
+// Lecture du relevé : par l'API GitHub si une clé est enregistrée (toujours à
+// jour), sinon par le site GitHub Pages (peut avoir 1 à 2 min de retard).
+const GH = {user:'Bcasablanca', repo:'bourse-casablanca', wf:'cours_live.yml'};
+function ghToken(){ try{ return localStorage.getItem('gh_token')||''; }catch(e){ return ''; } }
+async function lireLive(){
+  const t = ghToken();
+  if(t){
+    try{ return await fetchJson('https://api.github.com/repos/'+GH.user+'/'+GH.repo+'/contents/cours_live.json',
+      {'Authorization':'token '+t, 'Accept':'application/vnd.github.raw+json'}); }catch(e){ /* repli */ }
+  }
+  return premierJson(LIVE_URLS);
+}
+let live = null;   // dernier relevé de séance (cours_live.json)
 async function chargerCours(manuel){
   if(coursMeta.loading) return;
   coursMeta.loading = true; coursMeta.err = ''; renderCoursInfo();
-  const [fond, live] = await Promise.all([premierJson(COURS_URLS), premierJson(LIVE_URLS)]);
+  const [fond, liveLu] = await Promise.all([premierJson(COURS_URLS), lireLive()]);
+  if(liveLu && liveLu.actions) live = liveLu;
   coursMeta.loading = false; coursMeta.at = Date.now();
   let res = fond ? indexerCours(fond) : null;
   const tLive = live && live.actions && live.maj_iso ? new Date(live.maj_iso) : null;
@@ -594,7 +664,153 @@ async function chargerCours(manuel){
   if(change && loaded) save();
   const nonTrouves = db.actifs.filter(a=>!a.auto).map(a=>a.id);
   if(manuel) toast(nonTrouves.length ? '⚠️ Sans cours BVC : '+nonTrouves.join(', ') : '📈 Cours mis à jour');
+  verifierReleveAuto();
 }
+
+// ════════════════════
+//  RELEVÉ À LA DEMANDE
+//  Les tâches planifiées de GitHub sont souvent retardées ou sautées : pendant
+//  la séance, si le dernier relevé a plus de 12 min, l'application lance
+//  elle-même la tâche « cours_live » (clé gh_token, partagée avec Bourse Casa)
+//  puis attend le nouveau relevé (≈ 1 min). Au plus un lancement / 8 min.
+// ════════════════════
+let releve = {etat:'', ancienMaj:''};
+function ageReleveMin(){ return live && live.maj_iso ? (Date.now()-new Date(live.maj_iso))/60000 : Infinity; }
+function seanceProbable(){
+  const d=new Date(), j=d.getDay(), h=d.getHours()+d.getMinutes()/60;
+  return j>=1 && j<=5 && h>=9.4 && h<15.8;
+}
+function verifierReleveAuto(){
+  if(!ghToken() || releve.etat==='attente') return;
+  if(live && live.statut==='closed' && live.date===todayISO()) return;   // séance du jour terminée
+  if(live && live.statut==='closed' && ageReleveMin() < 60) return;      // jour férié : pas de relance en boucle
+  if(!seanceProbable() && !(live && live.statut==='open')) return;
+  if(ageReleveMin() < 12) return;
+  let dernier=0; try{ dernier=Number(localStorage.getItem('releve_last'))||0; }catch(e){}
+  if(Date.now()-dernier < 8*60*1000) return;
+  lancerReleve(false);
+}
+async function lancerReleve(manuel){
+  const t=ghToken();
+  if(!t){ if(manuel) openToken(); return; }
+  if(releve.etat==='attente'){ if(manuel) toast('⏳ Relevé déjà en cours…'); return; }
+  try{ localStorage.setItem('releve_last', String(Date.now())); }catch(e){}
+  releve={etat:'attente', ancienMaj: live&&live.maj_iso||''}; renderSeanceHead();
+  try{
+    const r=await fetch('https://api.github.com/repos/'+GH.user+'/'+GH.repo+'/actions/workflows/'+GH.wf+'/dispatches',{
+      method:'POST', body:JSON.stringify({ref:'main'}),
+      headers:{'Authorization':'token '+t,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'}});
+    if(r.status===401 || r.status===403){ releve.etat='cle'; try{ localStorage.removeItem('gh_token'); }catch(e){} renderSeanceHead(); if(manuel) toast('⚠️ Clé GitHub refusée'); return; }
+    if(r.status!==204){ releve.etat='erreur'; renderSeanceHead(); return; }
+  }catch(e){ releve.etat='erreur'; renderSeanceHead(); return; }
+  for(let i=0;i<14;i++){
+    await sleep(i===0 ? 35000 : 15000);
+    const l=await lireLive().catch(()=>null);
+    if(l && l.maj_iso && l.maj_iso!==releve.ancienMaj){
+      releve.etat='ok'; live=l;
+      await chargerCours(false);
+      if(manuel) toast('📈 Cours relevés à '+heureReleve(l));
+      renderCurrent(); return;
+    }
+  }
+  releve.etat='lent'; renderSeanceHead();
+}
+function openToken(){ document.getElementById('tokInput').value=''; openM('mToken'); }
+function validerToken(){
+  const v=document.getElementById('tokInput').value.trim();
+  if(!/^(ghp_|github_pat_)/.test(v)){ toast('⚠️ La clé doit commencer par ghp_ ou github_pat_'); return; }
+  try{ localStorage.setItem('gh_token', v); }catch(e){}
+  closeM('mToken'); releve.etat=''; lancerReleve(true);
+}
+
+// ════════════════════
+//  SÉANCE : toutes les valeurs (cours différés ~15 min)
+// ════════════════════
+let seTri={col:'cap', dir:-1}, seFiltre='';
+function fmtCap(n){ n=Number(n)||0; if(n>=1e9) return fmt(n/1e9,2)+' Md'; if(n>=1e6) return fmt(n/1e6,1)+' M'; if(n>=1e3) return fmt(n/1e3,0)+' k'; return n?fmt(n,0):'–'; }
+function seActions(){
+  if(!live || !live.actions) return [];
+  return Object.keys(live.actions).map(sym=>Object.assign({sym}, live.actions[sym]));
+}
+function estMienne(a){
+  const ids=new Set(db.actifs.map(x=>String(x.id).trim().toUpperCase()));
+  return ids.has(String(a.sym).toUpperCase()) || ids.has(String(a.nom||'').toUpperCase());
+}
+function varTxt(v){ return v==null||isNaN(v) ? '–' : (v>0?'+':'')+fmt(v,2)+'%'; }
+function varCls(v){ return v>0?'t-up':v<0?'t-down':'t-mono'; }
+function renderSeanceHead(){
+  const el=document.getElementById('seHead'); if(!el) return;
+  if(!live){ el.innerHTML='<div class="se-sub">Aucun relevé de séance disponible pour l\'instant.</div>'+releveHtml()+boutonReleve(); return; }
+  const ouvert=live.statut==='open', jour=live.date?live.date.split('-').reverse().join('/'):'';
+  const age=ageReleveMin();
+  el.innerHTML=`<div class="se-top">
+      <div><div class="se-stat" style="color:${ouvert?'var(--green)':'var(--muted2)'}">${ouvert?'🟢 Séance en cours':'⚪ Séance clôturée'} · ${esc(jour)}</div>
+        <div class="se-sub">Relevé de ${esc(heureReleve(live))}${isFinite(age)&&age>=1?' (il y a '+Math.round(age)+' min)':''} · cours différés de 15 min par la Bourse</div></div>
+      <div style="text-align:right"><div class="se-sub" style="margin:0">MASI</div><div class="se-masi">${live.masi?fmt(live.masi,2):'–'}</div></div>
+    </div>${releveHtml()}${boutonReleve()}`;
+}
+function boutonReleve(){
+  const att=releve.etat==='attente';
+  return `<button class="btn btn-a" style="margin-top:10px;padding:9px;font-size:.8rem" ${att?'disabled':''} onclick="lancerReleve(true)">${att?'⏳ Relevé en cours…':'🔄 Relever les cours maintenant'}</button>`;
+}
+function releveHtml(){
+  const m={attente:'⏳ Relevé demandé à GitHub : les nouveaux cours arrivent dans 1 à 2 minutes…',
+    lent:'⚠️ Le relevé n\'est pas encore arrivé (GitHub est lent). Réessayez dans quelques minutes.',
+    erreur:'⚠️ Impossible de lancer le relevé (connexion ?).',
+    cle:'⚠️ Clé GitHub refusée ou expirée : touchez « Relever les cours » pour en saisir une nouvelle.'}[releve.etat];
+  if(!m && !ghToken()) return '<div class="se-releve" style="color:var(--muted2)">Astuce : enregistrez votre clé GitHub (bouton ci-dessous) pour relever les cours à la demande au lieu d\'attendre la tâche automatique.</div>';
+  return m?'<div class="se-releve">'+m+'</div>':'';
+}
+function renderSeance(){
+  renderSeanceHead();
+  const acts=seActions();
+  const grid=document.getElementById('seGrid'), br=document.getElementById('seBreadth'), tops=document.getElementById('seTops');
+  if(!acts.length){ grid.innerHTML=''; br.innerHTML=''; tops.innerHTML=''; renderSeanceTable(); return; }
+  const actives=acts.filter(a=>(a.cap||0)>0 || (a.nbt||0)>0);
+  const h=acts.filter(a=>a.var>0).length, b=acts.filter(a=>a.var<0).length, i=acts.length-h-b;
+  const cap=acts.reduce((s,a)=>s+(Number(a.cap)||0),0), nbt=acts.reduce((s,a)=>s+(Number(a.nbt)||0),0);
+  grid.innerHTML=`
+    <div class="sb"><div class="sbl">Hausses</div><div class="sbv" style="color:var(--green)">${h}</div></div>
+    <div class="sb"><div class="sbl">Baisses</div><div class="sbv" style="color:var(--red)">${b}</div></div>
+    <div class="sb"><div class="sbl">Inchangées</div><div class="sbv">${i}</div></div>
+    <div class="sb"><div class="sbl">Capitaux</div><div class="sbv" style="color:var(--gold)">${fmtCap(cap)}</div><div class="sbs">MAD</div></div>
+    <div class="sb"><div class="sbl">Transactions</div><div class="sbv">${fmt(nbt,0)}</div></div>
+    <div class="sb"><div class="sbl">Valeurs traitées</div><div class="sbv">${actives.length}</div><div class="sbs">sur ${acts.length}</div></div>`;
+  const tot=acts.length||1;
+  br.innerHTML=`<i style="width:${h/tot*100}%;background:var(--green)"></i><i style="width:${i/tot*100}%;background:var(--muted)"></i><i style="width:${b/tot*100}%;background:var(--red)"></i>`;
+  const ligne=(a,val,cls)=>`<div class="tl-row" data-n="${esc(a.nom||a.sym)}" onclick="location.href=BOURSE_URL+'#action='+encodeURIComponent(this.dataset.n)">
+      <span class="tl-nom ${estMienne(a)?'mine':''}">${estMienne(a)?'★ ':''}${esc(a.nom||a.sym)}</span>
+      <span class="tl-val"><span class="t-mono" style="color:var(--text)">${fmt(a.cours)}</span> <span class="${cls}">${val}</span></span></div>`;
+  const hausses=[...acts].filter(a=>a.var>0).sort((x,y)=>y.var-x.var).slice(0,5);
+  const baisses=[...acts].filter(a=>a.var<0).sort((x,y)=>x.var-y.var).slice(0,5);
+  const capx=[...acts].filter(a=>a.cap>0).sort((x,y)=>y.cap-x.cap).slice(0,5);
+  const bloc=(titre,list,f)=>`<div><div class="sec" style="margin:8px 0 6px"><span class="sec-title">${titre}</span></div><div class="tl">${list.length?list.map(f).join(''):'<div class="tl-row" style="color:var(--muted)">–</div>'}</div></div>`;
+  tops.innerHTML=bloc('▲ Plus fortes hausses',hausses,a=>ligne(a,varTxt(a.var),'t-up'))+
+    bloc('▼ Plus fortes baisses',baisses,a=>ligne(a,varTxt(a.var),'t-down'))+
+    bloc('💰 Plus gros capitaux',capx,a=>ligne(a,fmtCap(a.cap),'t-mono'));
+  renderSeanceTable();
+}
+function trierSeance(col){ seTri = seTri.col===col ? {col, dir:-seTri.dir} : {col, dir: col==='nom'?1:-1}; renderSeanceTable(); }
+function renderSeanceTable(){
+  const cols=[['nom','Valeur'],['cours','Cours'],['var','Var.'],['cap','Capitaux']];
+  document.getElementById('seThead').innerHTML=cols.map(([c,l])=>`<th class="${seTri.col===c?'on':''}" onclick="trierSeance('${c}')">${l}${seTri.col===c?(seTri.dir>0?' ▲':' ▼'):''}</th>`).join('');
+  const q=(seFiltre||'').trim().toLowerCase();
+  let acts=seActions().filter(a=>!q || String(a.nom||'').toLowerCase().includes(q) || String(a.sym).toLowerCase().includes(q));
+  const k=seTri.col;
+  acts.sort((x,y)=>{
+    if(k==='nom') return seTri.dir*String(x.nom||x.sym).localeCompare(String(y.nom||y.sym),'fr');
+    const vx=Number(x[k]), vy=Number(y[k]);
+    return seTri.dir*((isNaN(vx)?-Infinity:vx)-(isNaN(vy)?-Infinity:vy));
+  });
+  const body=document.getElementById('seBody');
+  if(!acts.length){ body.innerHTML='<tr><td colspan="4" class="empty">'+(live?'Aucune valeur trouvée':'Pas encore de relevé')+'</td></tr>'; return; }
+  body.innerHTML=acts.map(a=>`<tr onclick="location.href=BOURSE_URL+'#action='+encodeURIComponent(this.dataset.n)" data-n="${esc(a.nom||a.sym)}">
+      <td class="nm ${estMienne(a)?'mine':''}">${estMienne(a)?'★ ':''}${esc(a.nom||a.sym)}</td>
+      <td class="t-mono" style="color:var(--text)">${fmt(a.cours)}</td>
+      <td class="${varCls(a.var)}">${varTxt(a.var)}</td>
+      <td class="t-mono">${fmtCap(a.cap)}</td></tr>`).join('');
+}
+
 function renderCoursInfo(){
   const el = document.getElementById('coursInfo'); if(!el) return;
   const btn = document.getElementById('btnCours'); if(btn) btn.disabled = coursMeta.loading;
@@ -660,7 +876,7 @@ function updateKPI(){
 
 function switchTab(t){
   currentTab=t;
-  document.querySelectorAll('.tab').forEach((el,i)=>el.classList.toggle('active',['ptf','detail','stats','journal'][i]===t));
+  document.querySelectorAll('.tab').forEach((el,i)=>el.classList.toggle('active',['ptf','seance','detail','stats','journal'][i]===t));
   document.querySelectorAll('.page').forEach(el=>el.classList.remove('active'));
   document.getElementById('page-'+t).classList.add('active');
   document.getElementById('fab').classList.toggle('show', t==='ptf');
@@ -669,6 +885,7 @@ function switchTab(t){
 function renderCurrent(){
   updateKPI();
   if(currentTab==='ptf') renderPtf();
+  if(currentTab==='seance') renderSeance();
   if(currentTab==='detail') renderDetail();
   if(currentTab==='stats') renderStats();
   if(currentTab==='journal') renderJournal();
@@ -1219,8 +1436,10 @@ function hideSplash(){ if(splashHidden) return; splashHidden=true; document.getE
   renderCurrent();
   setTimeout(hideSplash, 2500);
   initStore();
+  if(/seance/.test(location.hash)) switchTab('seance');
   chargerCours(false);
 })();
+window.addEventListener('hashchange',()=>{ if(/seance/.test(location.hash)) switchTab('seance'); });
 </script>
 </body>
 </html>
