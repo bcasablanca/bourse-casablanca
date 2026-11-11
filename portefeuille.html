@@ -601,10 +601,10 @@ async function premierJson(urls){
   for(const u of urls){ try{ return await fetchJson(u); }catch(e){ /* source suivante */ } }
   return null;
 }
-// « 11/11/2026 08:03 » (heure du Maroc, UTC+1) → Date
+// « 11/11/2026 08:03 » (heure du Maroc = heure de l'appareil) → Date
 function dateFond(s){
   const m=/(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/.exec(s||''); if(!m) return null;
-  return new Date(Date.UTC(+m[3], +m[2]-1, +m[1], +m[4]-1, +m[5]));
+  return new Date(+m[3], +m[2]-1, +m[1], +m[4], +m[5]);
 }
 // Heure du relevé, à l'heure de l'appareil (évite tout décalage de fuseau)
 function heureReleve(l){
