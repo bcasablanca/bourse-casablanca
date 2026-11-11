@@ -447,7 +447,11 @@ def main():
         v=ix[d].get("MASI")
         if v: masi_last="{:.2f}".format(v); break
 
-    gen_time=datetime.now().strftime("%d/%m/%Y %H:%M")
+    try:   # heure du Maroc (le serveur GitHub est a l'heure UTC)
+        from zoneinfo import ZoneInfo
+        gen_time=datetime.now(ZoneInfo("Africa/Casablanca")).strftime("%d/%m/%Y %H:%M")
+    except Exception:
+        gen_time=datetime.now().strftime("%d/%m/%Y %H:%M")
     last_date=datetime.strptime(dates[-1],"%Y-%m-%d").strftime("%d/%m/%Y") if dates else ""
 
     # Charger les fondamentaux si disponibles
