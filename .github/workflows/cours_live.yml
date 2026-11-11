@@ -1,0 +1,46 @@
+name: Cours de la seance (portefeuille)
+
+on:
+  schedule:
+    # Toutes les 15 min de 08:00 a 14:45 UTC = 9h00-15h45 heure du Maroc (UTC+1),
+    # du lundi au vendredi. GitHub peut retarder ou sauter un passage.
+    - cron: "*/15 8-14 * * 1-5"
+  workflow_dispatch:
+
+concurrency:
+  group: depot-bourse
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests certifi
+
+      - name: Script 9 - Cours de la seance
+        run: python 9_cours_live.py
+
+      - name: Commit et push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cours_live.json
+          if git diff --staged --quiet; then exit 0; fi
+          git commit -m "Cours seance $(date -u +%H:%M) UTC"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
