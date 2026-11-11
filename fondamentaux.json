@@ -4,16 +4,16 @@
     "symbole": "ADH",
     "secteur": "Participation et promotion immobilières",
     "statut": "T",
-    "cours": 38.99,
+    "cours": 38.82,
     "cours_ref": 40.1,
     "ouverture": 40.1,
-    "variation_jour": -2.77,
+    "variation_jour": -3.19,
     "haut_jour": 40.77,
     "bas_jour": 38.7,
-    "volume_jour": 12135250.25,
-    "capitalisation": 15695473393.46,
+    "volume_jour": 12146938.75,
+    "capitalisation": 15627039680.28,
     "nb_titres": 402551254,
-    "poids_marche": 1.54,
+    "poids_marche": 1.53,
     "beta": 2.02,
     "liquidite": 10329276.0,
     "haut_52s": 41.44,
@@ -23,24 +23,24 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -1.98,
-    "cap_fmt": "15.70 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "15.63 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Alliances": {
     "nom_bvc": "ALLIANCES DEVELOPPEMENT IMMOBILIER",
     "symbole": "ADI",
     "secteur": "Participation et promotion immobilières",
     "statut": "T",
-    "cours": 371.0,
+    "cours": 372.1,
     "cours_ref": 388.0,
     "ouverture": 388.0,
-    "variation_jour": -4.38,
+    "variation_jour": -4.1,
     "haut_jour": 391.0,
     "bas_jour": 370.0,
-    "volume_jour": 16858425.05,
-    "capitalisation": 8191156148.0,
+    "volume_jour": 16881271.05,
+    "capitalisation": 8215442594.8,
     "nb_titres": 22078588,
-    "poids_marche": 0.8,
+    "poids_marche": 0.81,
     "beta": 2.09,
     "liquidite": 5563809.0,
     "haut_52s": 620.1,
@@ -50,8 +50,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -37.21,
-    "cap_fmt": "8.19 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "8.22 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Afric Indus": {
     "nom_bvc": "AFRIC INDUSTRIES",
@@ -78,7 +78,7 @@
     "signal_ana": "N/A",
     "perf_1an": -2.53,
     "cap_fmt": "94.91 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "AFMA": {
     "nom_bvc": "AFMA",
@@ -105,7 +105,7 @@
     "signal_ana": "N/A",
     "perf_1an": -5.3,
     "cap_fmt": "1.25 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Agma": {
     "nom_bvc": "AGMA",
@@ -121,7 +121,7 @@
     "volume_jour": null,
     "capitalisation": 1376000000.0,
     "nb_titres": 200000,
-    "poids_marche": 0.14,
+    "poids_marche": 0.13,
     "beta": 0.19,
     "liquidite": 103214.0,
     "haut_52s": 7330.0,
@@ -132,7 +132,7 @@
     "signal_ana": "N/A",
     "perf_1an": 4.24,
     "cap_fmt": "1.38 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Akdital": {
     "nom_bvc": "AKDITAL",
@@ -159,7 +159,7 @@
     "signal_ana": "N/A",
     "perf_1an": -24.31,
     "cap_fmt": "15.18 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Aluminium Maroc": {
     "nom_bvc": "ALUMINIUM  DU  MAROC",
@@ -186,7 +186,7 @@
     "signal_ana": "N/A",
     "perf_1an": 1.14,
     "cap_fmt": "880.19 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Aradei Capital": {
     "nom_bvc": "ARADEI CAPITAL",
@@ -213,7 +213,7 @@
     "signal_ana": "N/A",
     "perf_1an": -7.61,
     "cap_fmt": "5.34 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Auto Hall": {
     "nom_bvc": "AUTO HALL",
@@ -240,7 +240,7 @@
     "signal_ana": "N/A",
     "perf_1an": -37.14,
     "cap_fmt": "3.25 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "ATLANTASANAD": {
     "nom_bvc": "ATLANTASANAD",
@@ -256,7 +256,7 @@
     "volume_jour": 46537.6,
     "capitalisation": 7077294053.0,
     "nb_titres": 60283595,
-    "poids_marche": 0.7,
+    "poids_marche": 0.69,
     "beta": 1.04,
     "liquidite": 1130842.0,
     "haut_52s": 155.0,
@@ -267,7 +267,7 @@
     "signal_ana": "N/A",
     "perf_1an": -20.39,
     "cap_fmt": "7.08 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Attijariwafa": {
     "nom_bvc": "ATTIJARIWAFA BANK",
@@ -283,7 +283,7 @@
     "volume_jour": 881092.2,
     "capitalisation": 146317284603.9,
     "nb_titres": 215140839,
-    "poids_marche": 14.37,
+    "poids_marche": 14.35,
     "beta": 0.94,
     "liquidite": 29931132.0,
     "haut_52s": 780.0,
@@ -294,7 +294,7 @@
     "signal_ana": "N/A",
     "perf_1an": -11.45,
     "cap_fmt": "146.32 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "BALIMA": {
     "nom_bvc": "BALIMA",
@@ -321,7 +321,7 @@
     "signal_ana": "N/A",
     "perf_1an": -22.05,
     "cap_fmt": "345.31 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "BMCI": {
     "nom_bvc": "BANQUE MAROCAINE POUR LE COMMERCE ET L'INDUSTRIE",
@@ -348,7 +348,7 @@
     "signal_ana": "N/A",
     "perf_1an": 2.87,
     "cap_fmt": "7.48 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "BCP": {
     "nom_bvc": "BANQUE CENTRALE POPULAIRE",
@@ -375,7 +375,7 @@
     "signal_ana": "N/A",
     "perf_1an": -18.77,
     "cap_fmt": "50.83 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "BOA": {
     "nom_bvc": "BANK OF AFRICA",
@@ -402,7 +402,7 @@
     "signal_ana": "N/A",
     "perf_1an": -19.46,
     "cap_fmt": "43.92 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Cash Plus": {
     "nom_bvc": "CASH PLUS",
@@ -429,7 +429,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "5.40 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "CDM": {
     "nom_bvc": "CREDIT DU MAROC",
@@ -456,7 +456,7 @@
     "signal_ana": "N/A",
     "perf_1an": -6.29,
     "cap_fmt": "11.05 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "CFG Bank": {
     "nom_bvc": "CFG BANK",
@@ -483,7 +483,7 @@
     "signal_ana": "N/A",
     "perf_1an": -21.57,
     "cap_fmt": "6.90 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "CIH": {
     "nom_bvc": "CREDIT IMMOBILIER ET HOTELIER",
@@ -510,21 +510,21 @@
     "signal_ana": "N/A",
     "perf_1an": -25.18,
     "cap_fmt": "11.95 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Ciments Maroc": {
     "nom_bvc": "CIMENTS DU MAROC",
     "symbole": "CMA",
     "secteur": "Bâtiment et Matériaux de Construction",
     "statut": "T",
-    "cours": 1485.0,
+    "cours": 1489.0,
     "cours_ref": 1490.0,
     "ouverture": 1500.0,
-    "variation_jour": -0.34,
+    "variation_jour": -0.07,
     "haut_jour": 1500.0,
     "bas_jour": 1455.0,
-    "volume_jour": 297362.0,
-    "capitalisation": 21437465940.0,
+    "volume_jour": 301829.0,
+    "capitalisation": 21495209956.0,
     "nb_titres": 14436004,
     "poids_marche": 2.11,
     "beta": 1.11,
@@ -536,8 +536,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -25.5,
-    "cap_fmt": "21.44 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "21.50 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "CMGP Group": {
     "nom_bvc": "CMGP GROUP",
@@ -564,7 +564,7 @@
     "signal_ana": "N/A",
     "perf_1an": -25.16,
     "cap_fmt": "4.69 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "CMT": {
     "nom_bvc": "COMPAGNIE MINIERE DE TOUISSIT",
@@ -591,7 +591,7 @@
     "signal_ana": "N/A",
     "perf_1an": 35.31,
     "cap_fmt": "6.22 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Colorado": {
     "nom_bvc": "COLORADO",
@@ -618,21 +618,21 @@
     "signal_ana": "N/A",
     "perf_1an": -16.42,
     "cap_fmt": "1.19 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Cartier Saada": {
     "nom_bvc": "CARTIER SAADA",
     "symbole": "CRS",
     "secteur": "Agroalimentaire et Production",
     "statut": "T",
-    "cours": 19.5,
+    "cours": 19.2,
     "cours_ref": 19.2,
     "ouverture": 19.3,
-    "variation_jour": 1.56,
+    "variation_jour": 0.0,
     "haut_jour": 19.5,
     "bas_jour": 19.1,
-    "volume_jour": 124751.46,
-    "capitalisation": 102667500.0,
+    "volume_jour": 126287.46,
+    "capitalisation": 101088000.0,
     "nb_titres": 5265000,
     "poids_marche": 0.01,
     "beta": 1.11,
@@ -644,8 +644,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -50.69,
-    "cap_fmt": "102.67 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "101.09 M MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "COSUMAR": {
     "nom_bvc": "COSUMAR",
@@ -658,7 +658,7 @@
     "variation_jour": 0.0,
     "haut_jour": 181.95,
     "bas_jour": 178.2,
-    "volume_jour": 396108.4,
+    "volume_jour": 398988.4,
     "capitalisation": 17007685740.0,
     "nb_titres": 94487143,
     "poids_marche": 1.67,
@@ -672,7 +672,7 @@
     "signal_ana": "N/A",
     "perf_1an": -17.05,
     "cap_fmt": "17.01 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "CTM": {
     "nom_bvc": "COMPAGNIE DE TRANSPORT AU MAROC",
@@ -699,7 +699,7 @@
     "signal_ana": "N/A",
     "perf_1an": -12.57,
     "cap_fmt": "980.17 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Delta Holding": {
     "nom_bvc": "DELTA HOLDING",
@@ -712,7 +712,7 @@
     "variation_jour": -0.6,
     "haut_jour": 51.68,
     "bas_jour": 49.61,
-    "volume_jour": 558414.51,
+    "volume_jour": 560914.51,
     "capitalisation": 4380000000.0,
     "nb_titres": 87600000,
     "poids_marche": 0.43,
@@ -726,7 +726,7 @@
     "signal_ana": "N/A",
     "perf_1an": -36.33,
     "cap_fmt": "4.38 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "DIAC Salaf": {
     "nom_bvc": "DIAC SALAF",
@@ -753,7 +753,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "27.65 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Delattre Levivier": {
     "nom_bvc": "DELATTRE LEVIVIER MAROC",
@@ -780,7 +780,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "70.00 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Dari Couspate": {
     "nom_bvc": "DARI COUSPATE",
@@ -807,7 +807,7 @@
     "signal_ana": "N/A",
     "perf_1an": -0.5,
     "cap_fmt": "1.19 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "DISWAY": {
     "nom_bvc": "DISWAY",
@@ -834,7 +834,7 @@
     "signal_ana": "N/A",
     "perf_1an": -18.87,
     "cap_fmt": "1.41 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Disty Technolog": {
     "nom_bvc": "DISTY TECHNOLOGIES",
@@ -861,7 +861,7 @@
     "signal_ana": "N/A",
     "perf_1an": -5.01,
     "cap_fmt": "353.33 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "EQDOM": {
     "nom_bvc": "EQDOM",
@@ -888,7 +888,7 @@
     "signal_ana": "N/A",
     "perf_1an": 9.38,
     "cap_fmt": "2.34 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "FENIE BROSSETTE": {
     "nom_bvc": "FENIE BROSSETTE",
@@ -915,7 +915,7 @@
     "signal_ana": "N/A",
     "perf_1an": -27.71,
     "cap_fmt": "482.06 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Afriquia Gaz": {
     "nom_bvc": "AFRIQUIA GAZ",
@@ -942,21 +942,21 @@
     "signal_ana": "N/A",
     "perf_1an": -15.35,
     "cap_fmt": "12.36 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "SGTM": {
     "nom_bvc": "SOCIETE GENERALE DES TRAVAUX DU MAROC",
     "symbole": "GTM",
     "secteur": "Bâtiment et Matériaux de Construction",
     "statut": "T",
-    "cours": 610.2,
+    "cours": 611.0,
     "cours_ref": 632.0,
     "ouverture": 642.0,
-    "variation_jour": -3.45,
+    "variation_jour": -3.32,
     "haut_jour": 642.0,
     "bas_jour": 605.0,
-    "volume_jour": 2638614.2,
-    "capitalisation": 36612000000.0,
+    "volume_jour": 2641669.2,
+    "capitalisation": 36660000000.0,
     "nb_titres": 60000000,
     "poids_marche": 3.6,
     "beta": 1.85,
@@ -968,8 +968,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": null,
-    "cap_fmt": "36.61 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "36.66 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "HPS": {
     "nom_bvc": "HIGHTECH PAYMENT SYSTEMS",
@@ -996,7 +996,7 @@
     "signal_ana": "N/A",
     "perf_1an": 2.75,
     "cap_fmt": "4.09 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "IAM": {
     "nom_bvc": "ITISSALAT AL-MAGHRIB",
@@ -1012,7 +1012,7 @@
     "volume_jour": 3365644.07,
     "capitalisation": 79118580600.0,
     "nb_titres": 879095340,
-    "poids_marche": 7.77,
+    "poids_marche": 7.76,
     "beta": 1.05,
     "liquidite": 13387871.0,
     "haut_52s": 120.0,
@@ -1023,7 +1023,7 @@
     "signal_ana": "N/A",
     "perf_1an": -23.58,
     "cap_fmt": "79.12 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "IBMaroc": {
     "nom_bvc": "IB MAROC.COM",
@@ -1050,7 +1050,7 @@
     "signal_ana": "N/A",
     "perf_1an": -36.21,
     "cap_fmt": "21.71 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Immr Invest": {
     "nom_bvc": "IMMORENTE INVEST",
@@ -1077,7 +1077,7 @@
     "signal_ana": "N/A",
     "perf_1an": 0.99,
     "cap_fmt": "824.14 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "INVOLYS": {
     "nom_bvc": "INVOLYS",
@@ -1090,7 +1090,7 @@
     "variation_jour": -0.22,
     "haut_jour": 115.5,
     "bas_jour": 115.25,
-    "volume_jour": 48946.95,
+    "volume_jour": 50099.45,
     "capitalisation": 44108019.0,
     "nb_titres": 382716,
     "poids_marche": 0.0,
@@ -1104,21 +1104,21 @@
     "signal_ana": "N/A",
     "perf_1an": -50.83,
     "cap_fmt": "44.11 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Jet Contractors": {
     "nom_bvc": "JET CONTRACTORS",
     "symbole": "JET",
     "secteur": "Bâtiment et Matériaux de Construction",
     "statut": "T",
-    "cours": 1585.0,
+    "cours": 1580.0,
     "cours_ref": 1604.0,
     "ouverture": 1666.0,
-    "variation_jour": -1.18,
+    "variation_jour": -1.5,
     "haut_jour": 1689.0,
     "bas_jour": 1565.0,
-    "volume_jour": 2984009.0,
-    "capitalisation": 4801792370.0,
+    "volume_jour": 3001389.0,
+    "capitalisation": 4786644760.0,
     "nb_titres": 3029522,
     "poids_marche": 0.47,
     "beta": 1.84,
@@ -1130,8 +1130,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -40.59,
-    "cap_fmt": "4.80 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "4.79 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "LABEL VIE": {
     "nom_bvc": "LABEL VIE",
@@ -1147,7 +1147,7 @@
     "volume_jour": 11568.0,
     "capitalisation": 11159098192.0,
     "nb_titres": 2893957,
-    "poids_marche": 1.1,
+    "poids_marche": 1.09,
     "beta": 0.73,
     "liquidite": 6933211.0,
     "haut_52s": 4700.0,
@@ -1158,7 +1158,7 @@
     "signal_ana": "N/A",
     "perf_1an": -16.99,
     "cap_fmt": "11.16 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Lesieur Cristal": {
     "nom_bvc": "LESIEUR CRISTAL",
@@ -1185,7 +1185,7 @@
     "signal_ana": "N/A",
     "perf_1an": -5.35,
     "cap_fmt": "7.94 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "LafargeHolcim": {
     "nom_bvc": "HOLCIM MAROC",
@@ -1201,7 +1201,7 @@
     "volume_jour": 133198.0,
     "capitalisation": 39598795600.0,
     "nb_titres": 23431240,
-    "poids_marche": 3.89,
+    "poids_marche": 3.88,
     "beta": 1.05,
     "liquidite": 7233170.0,
     "haut_52s": 1980.0,
@@ -1212,7 +1212,7 @@
     "signal_ana": "N/A",
     "perf_1an": -13.24,
     "cap_fmt": "39.60 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "M2M Group": {
     "nom_bvc": "M2M GROUP",
@@ -1239,7 +1239,7 @@
     "signal_ana": "N/A",
     "perf_1an": -22.95,
     "cap_fmt": "253.93 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Maghrebail": {
     "nom_bvc": "MAGHREBAIL",
@@ -1266,7 +1266,7 @@
     "signal_ana": "N/A",
     "perf_1an": -3.81,
     "cap_fmt": "1.26 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Med Paper": {
     "nom_bvc": "MED PAPER",
@@ -1293,7 +1293,7 @@
     "signal_ana": "N/A",
     "perf_1an": -29.05,
     "cap_fmt": "109.36 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Microdata": {
     "nom_bvc": "MICRODATA",
@@ -1320,23 +1320,23 @@
     "signal_ana": "N/A",
     "perf_1an": -5.53,
     "cap_fmt": "1.31 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Maroc Leasing": {
     "nom_bvc": "MAROC LEASING",
     "symbole": "MLE",
     "secteur": "Sociétés de financement et Autres Activités Financières",
     "statut": "T",
-    "cours": 339.0,
+    "cours": 350.0,
     "cours_ref": 339.0,
-    "ouverture": null,
-    "variation_jour": null,
-    "haut_jour": null,
-    "bas_jour": null,
-    "volume_jour": null,
-    "capitalisation": 941324352.0,
+    "ouverture": 350.0,
+    "variation_jour": 3.24,
+    "haut_jour": 350.0,
+    "bas_jour": 350.0,
+    "volume_jour": 700.0,
+    "capitalisation": 971868800.0,
     "nb_titres": 2776768,
-    "poids_marche": 0.09,
+    "poids_marche": 0.1,
     "beta": 0.17,
     "liquidite": 4154.0,
     "haut_52s": 389.55,
@@ -1346,24 +1346,24 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -10.19,
-    "cap_fmt": "941.32 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "971.87 M MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Managem": {
     "nom_bvc": "MANAGEM",
     "symbole": "MNG",
     "secteur": "Mines",
     "statut": "T",
-    "cours": 1451.0,
+    "cours": 1467.0,
     "cours_ref": 1470.0,
     "ouverture": 1475.0,
-    "variation_jour": -1.29,
+    "variation_jour": -0.2,
     "haut_jour": 1475.0,
     "bas_jour": 1450.0,
-    "volume_jour": 3032836.0,
-    "capitalisation": 172156448760.0,
+    "volume_jour": 3047506.0,
+    "capitalisation": 174054796920.0,
     "nb_titres": 118646760,
-    "poids_marche": 16.91,
+    "poids_marche": 17.07,
     "beta": 1.37,
     "liquidite": 36094774.0,
     "haut_52s": 1895.0,
@@ -1373,8 +1373,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": 145.0,
-    "cap_fmt": "172.16 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "174.05 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Maghreb Oxygene": {
     "nom_bvc": "MAGHREB OXYGENE",
@@ -1401,23 +1401,23 @@
     "signal_ana": "N/A",
     "perf_1an": -7.09,
     "cap_fmt": "309.52 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "SODEP": {
     "nom_bvc": "SOCIETE D'EXPLOITATION DES PORTS - MARSA MAROC",
     "symbole": "MSA",
     "secteur": "Services de transport",
     "statut": "T",
-    "cours": 790.0,
+    "cours": 794.0,
     "cours_ref": 795.0,
     "ouverture": 794.0,
-    "variation_jour": -0.63,
+    "variation_jour": -0.13,
     "haut_jour": 796.5,
     "bas_jour": 788.1,
-    "volume_jour": 2697312.5,
-    "capitalisation": 57982524000.0,
+    "volume_jour": 2720250.5,
+    "capitalisation": 58276106400.0,
     "nb_titres": 73395600,
-    "poids_marche": 5.69,
+    "poids_marche": 5.72,
     "beta": 1.41,
     "liquidite": 21162364.0,
     "haut_52s": 1001.0,
@@ -1427,22 +1427,22 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -20.34,
-    "cap_fmt": "57.98 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "58.28 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Mutandis": {
     "nom_bvc": "MUTANDIS SCA",
     "symbole": "MUT",
     "secteur": "Agroalimentaire et Production",
     "statut": "T",
-    "cours": 232.9,
+    "cours": 230.15,
     "cours_ref": 230.15,
     "ouverture": 231.0,
-    "variation_jour": 1.19,
+    "variation_jour": 0.0,
     "haut_jour": 235.0,
     "bas_jour": 230.15,
-    "volume_jour": 330312.15,
-    "capitalisation": 2153565047.3,
+    "volume_jour": 332613.65,
+    "capitalisation": 2128136520.55,
     "nb_titres": 9246737,
     "poids_marche": 0.21,
     "beta": 0.94,
@@ -1454,8 +1454,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -17.8,
-    "cap_fmt": "2.15 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "2.13 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Auto Nejma": {
     "nom_bvc": "AUTO NEJMA",
@@ -1482,7 +1482,7 @@
     "signal_ana": "N/A",
     "perf_1an": 15.9,
     "cap_fmt": "5.75 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Ennakl": {
     "nom_bvc": "ENNAKL AUTOMOBILES",
@@ -1509,7 +1509,7 @@
     "signal_ana": "N/A",
     "perf_1an": -25.48,
     "cap_fmt": "1.40 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Oulmes": {
     "nom_bvc": "SOCIETE LES EAUX MINERALES D'OULMES",
@@ -1536,21 +1536,21 @@
     "signal_ana": "N/A",
     "perf_1an": -3.83,
     "cap_fmt": "2.24 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "PROMOPHARM": {
     "nom_bvc": "SOCIETE DE PROMOTION PHARMACEUTIQUE DU MAGHREB",
     "symbole": "PRO",
     "secteur": "Industrie Pharmaceutique",
     "statut": "T",
-    "cours": 1432.0,
+    "cours": 1424.0,
     "cours_ref": 1432.0,
-    "ouverture": null,
-    "variation_jour": null,
-    "haut_jour": null,
-    "bas_jour": null,
-    "volume_jour": null,
-    "capitalisation": 1432000000.0,
+    "ouverture": 1424.0,
+    "variation_jour": -0.56,
+    "haut_jour": 1424.0,
+    "bas_jour": 1424.0,
+    "volume_jour": 28480.0,
+    "capitalisation": 1424000000.0,
     "nb_titres": 1000000,
     "poids_marche": 0.14,
     "beta": 0.13,
@@ -1562,22 +1562,22 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": 2.65,
-    "cap_fmt": "1.43 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "1.42 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Res.Dar Saada": {
     "nom_bvc": "RESIDENCES DAR SAADA",
     "symbole": "RDS",
     "secteur": "Participation et promotion immobilières",
     "statut": "T",
-    "cours": 174.5,
+    "cours": 175.0,
     "cours_ref": 178.9,
     "ouverture": 177.1,
-    "variation_jour": -2.46,
+    "variation_jour": -2.18,
     "haut_jour": 178.0,
     "bas_jour": 173.5,
-    "volume_jour": 827154.55,
-    "capitalisation": 4573444325.0,
+    "volume_jour": 897154.55,
+    "capitalisation": 4586548750.0,
     "nb_titres": 26208850,
     "poids_marche": 0.45,
     "beta": 2.22,
@@ -1589,8 +1589,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -5.84,
-    "cap_fmt": "4.57 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "4.59 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Rebab Company": {
     "nom_bvc": "REBAB COMPANY",
@@ -1617,7 +1617,7 @@
     "signal_ana": "N/A",
     "perf_1an": -10.59,
     "cap_fmt": "16.08 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Risma": {
     "nom_bvc": "RISMA",
@@ -1630,7 +1630,7 @@
     "variation_jour": -2.69,
     "haut_jour": 325.0,
     "bas_jour": 319.05,
-    "volume_jour": 554767.5,
+    "volume_jour": 565972.75,
     "capitalisation": 5126284059.8,
     "nb_titres": 16012132,
     "poids_marche": 0.5,
@@ -1644,7 +1644,7 @@
     "signal_ana": "N/A",
     "perf_1an": -21.48,
     "cap_fmt": "5.13 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "S2M": {
     "nom_bvc": "SOCIETE MAGHREBINE DE MONETIQUE",
@@ -1671,7 +1671,7 @@
     "signal_ana": "N/A",
     "perf_1an": -20.71,
     "cap_fmt": "381.67 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Sanlam Maroc": {
     "nom_bvc": "SANLAM MAROC",
@@ -1698,7 +1698,7 @@
     "signal_ana": "N/A",
     "perf_1an": 60.0,
     "cap_fmt": "17.09 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Samir": {
     "nom_bvc": "SAMIR",
@@ -1725,7 +1725,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "1.52 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Ste Boissons": {
     "nom_bvc": "SOCIETE DES BOISSONS DU MAROC",
@@ -1738,7 +1738,7 @@
     "variation_jour": -2.3,
     "haut_jour": 1950.0,
     "bas_jour": 1950.0,
-    "volume_jour": 29250.0,
+    "volume_jour": 39000.0,
     "capitalisation": 5517823350.0,
     "nb_titres": 2829653,
     "poids_marche": 0.54,
@@ -1752,21 +1752,21 @@
     "signal_ana": "N/A",
     "perf_1an": -14.33,
     "cap_fmt": "5.52 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Sonasid": {
     "nom_bvc": "SOCIETE NATIONALE DE SIDERURGIE",
     "symbole": "SID",
     "secteur": "Bâtiment et Matériaux de Construction",
     "statut": "T",
-    "cours": 1840.0,
+    "cours": 1833.0,
     "cours_ref": 1833.0,
     "ouverture": 1833.0,
-    "variation_jour": 0.38,
+    "variation_jour": 0.0,
     "haut_jour": 1980.0,
     "bas_jour": 1800.0,
-    "volume_jour": 1312866.0,
-    "capitalisation": 7176000000.0,
+    "volume_jour": 1589970.0,
+    "capitalisation": 7148700000.0,
     "nb_titres": 3900000,
     "poids_marche": 0.7,
     "beta": 1.78,
@@ -1778,8 +1778,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -26.68,
-    "cap_fmt": "7.18 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "7.15 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "SALAFIN": {
     "nom_bvc": "SALAFIN",
@@ -1806,7 +1806,7 @@
     "signal_ana": "N/A",
     "perf_1an": -27.5,
     "cap_fmt": "1.31 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "SMI": {
     "nom_bvc": "SOCIETE METALLURGIQUE D'IMITER",
@@ -1833,7 +1833,7 @@
     "signal_ana": "N/A",
     "perf_1an": 93.11,
     "cap_fmt": "8.36 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Stokvis Nord Afr": {
     "nom_bvc": "STOKVIS NORD AFRIQUE",
@@ -1860,7 +1860,7 @@
     "signal_ana": "N/A",
     "perf_1an": -57.33,
     "cap_fmt": "909.53 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "SNEP": {
     "nom_bvc": "SOCIETE NATIONALE D'ELECTROLYSE ET DE PETROCHIMIE",
@@ -1887,7 +1887,7 @@
     "signal_ana": "N/A",
     "perf_1an": -53.64,
     "cap_fmt": "621.48 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "SOTHEMA": {
     "nom_bvc": "SOCIETE DE THERAPEUTIQUE MAROCAINE",
@@ -1914,7 +1914,7 @@
     "signal_ana": "N/A",
     "perf_1an": -10.33,
     "cap_fmt": "12.64 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "SRM": {
     "nom_bvc": "SOCIETE DE REALISATIONS MECANIQUES",
@@ -1941,7 +1941,7 @@
     "signal_ana": "N/A",
     "perf_1an": -17.76,
     "cap_fmt": "140.80 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "STROC Indus": {
     "nom_bvc": "SOCIETE DE TRAVAUX DE REALISATION D'OUVRAGES ET DE CONSTRUCTION INDUSTRIELLE",
@@ -1968,7 +1968,7 @@
     "signal_ana": "N/A",
     "perf_1an": -47.63,
     "cap_fmt": "199.76 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "T2S GROUP HOLDING": {
     "nom_bvc": "T2S GROUP HOLDING",
@@ -1981,7 +1981,7 @@
     "variation_jour": -3.75,
     "haut_jour": 223.0,
     "bas_jour": 215.1,
-    "volume_jour": 907293.5,
+    "volume_jour": 910958.0,
     "capitalisation": 4866877429.0,
     "nb_titres": 22584118,
     "poids_marche": 0.48,
@@ -1995,7 +1995,7 @@
     "signal_ana": "N/A",
     "perf_1an": null,
     "cap_fmt": "4.87 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "TGCC": {
     "nom_bvc": "TRAVAUX GENERAUX DE CONSTRUCTION DE CASABLANCA",
@@ -2011,7 +2011,7 @@
     "volume_jour": 5678533.3,
     "capitalisation": 22260921144.0,
     "nb_titres": 34674332,
-    "poids_marche": 2.19,
+    "poids_marche": 2.18,
     "beta": 1.64,
     "liquidite": 16187966.0,
     "haut_52s": 980.0,
@@ -2022,7 +2022,7 @@
     "signal_ana": "N/A",
     "perf_1an": -30.93,
     "cap_fmt": "22.26 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Total Maroc": {
     "nom_bvc": "TOTALENERGIES MARKETING MAROC",
@@ -2049,23 +2049,23 @@
     "signal_ana": "N/A",
     "perf_1an": -25.66,
     "cap_fmt": "12.32 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "TAQA Morocco": {
     "nom_bvc": "TAQA MOROCCO",
     "symbole": "TQM",
     "secteur": "Electricité",
     "statut": "T",
-    "cours": 1735.0,
+    "cours": 1695.0,
     "cours_ref": 1798.0,
     "ouverture": 1797.0,
-    "variation_jour": -3.5,
+    "variation_jour": -5.73,
     "haut_jour": 1797.0,
-    "bas_jour": 1735.0,
-    "volume_jour": 32018.0,
-    "capitalisation": 40926120370.0,
+    "bas_jour": 1695.0,
+    "volume_jour": 167288.0,
+    "capitalisation": 39982578690.0,
     "nb_titres": 23588542,
-    "poids_marche": 4.02,
+    "poids_marche": 3.92,
     "beta": 1.42,
     "liquidite": 2804166.0,
     "haut_52s": 2480.0,
@@ -2075,8 +2075,8 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": -26.58,
-    "cap_fmt": "40.93 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "39.98 Mrd MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Unimer": {
     "nom_bvc": "UNIMER",
@@ -2103,7 +2103,7 @@
     "signal_ana": "N/A",
     "perf_1an": 6.29,
     "cap_fmt": "1.93 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Vicenne": {
     "nom_bvc": "VICENNE",
@@ -2130,7 +2130,7 @@
     "signal_ana": "N/A",
     "perf_1an": -36.52,
     "cap_fmt": "3.30 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Wafa Assur": {
     "nom_bvc": "WAFA ASSURANCE",
@@ -2157,21 +2157,21 @@
     "signal_ana": "N/A",
     "perf_1an": 0.95,
     "cap_fmt": "18.55 Mrd MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "mise_a_jour": "11/11/2026 14:51"
   },
   "Zellidja": {
     "nom_bvc": "ZELLIDJA",
     "symbole": "ZDJ",
     "secteur": "Sociétés de Portefeuilles / Holdings",
     "statut": "T",
-    "cours": 268.9,
+    "cours": 268.0,
     "cours_ref": 260.0,
     "ouverture": 268.0,
-    "variation_jour": 3.42,
+    "variation_jour": 3.08,
     "haut_jour": 268.9,
     "bas_jour": 268.0,
-    "volume_jour": 9391.7,
-    "capitalisation": 154039096.1,
+    "volume_jour": 10731.7,
+    "capitalisation": 153523532.0,
     "nb_titres": 572849,
     "poids_marche": 0.02,
     "beta": 0.64,
@@ -2183,7 +2183,7 @@
     "potentiel": null,
     "signal_ana": "N/A",
     "perf_1an": 21.5,
-    "cap_fmt": "154.04 M MAD",
-    "mise_a_jour": "11/11/2026 14:40"
+    "cap_fmt": "153.52 M MAD",
+    "mise_a_jour": "11/11/2026 14:51"
   }
 }
