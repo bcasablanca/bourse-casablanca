@@ -34,6 +34,8 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
 .hdr-right{display:flex;align-items:center;gap:6px}
 .hdr-date{font-size:.7rem;color:var(--muted);background:var(--s2);border:1px solid var(--border);border-radius:6px;padding:3px 8px;font-family:var(--mono)}
 .hdr-btn{background:var(--s2);border:1px solid var(--border);border-radius:6px;padding:2px 8px;font-size:.8rem;cursor:pointer;color:var(--text)}
+.hdr-link{text-decoration:none;color:var(--gold);border-color:rgba(240,180,41,.35);font-size:.7rem;font-weight:700;white-space:nowrap;padding:3px 8px}
+@media (max-width:400px){.hdr-date{display:none}}
 .sync{display:flex;align-items:center;gap:5px;font-size:.62rem;font-family:var(--mono);color:var(--muted2);white-space:nowrap}
 .sync i{width:7px;height:7px;border-radius:50%;background:var(--muted);display:block}
 .sync.ok i{background:var(--green)} .sync.saving i{background:var(--gold);animation:pulse 1s ease infinite}
@@ -149,6 +151,7 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
       <div class="hdr-right">
         <div class="sync" id="sync"><i></i><span id="syncTxt">Connexion…</span></div>
         <div class="hdr-date" id="hdrDate"></div>
+        <a class="hdr-btn hdr-link" id="lnkBourse" href="./" title="Ouvrir Bourse Casablanca (analyses du marché)">📈 Marché</a>
         <button class="hdr-btn" onclick="openBackup()" title="Sauvegarde" aria-label="Sauvegarde">💾</button>
       </div>
     </div>
@@ -278,6 +281,7 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
     <div class="pnl-box" id="renfPreview" hidden></div>
     <button class="btn btn-a" style="margin-top:4px" onclick="doRenforcement()">🛒 Enregistrer le renforcement</button>
     <button class="btn btn-d" onclick="openVente()">📤 Vendre cette action</button>
+    <a class="btn btn-g" id="lnkAnalyse" href="./" style="display:block;text-align:center;text-decoration:none;color:var(--gold)">📈 Voir l'analyse dans Bourse Casa</a>
     <button class="btn btn-link" onclick="askConfirm('Supprimer la ligne '+editId+' ? Elle disparaît du portefeuille sans être comptée comme vente.','Oui, supprimer',supprimerAction)">🗑 Supprimer cette ligne</button>
     <button class="btn btn-g" onclick="closeM('mMaj')">Annuler</button>
   </div>
@@ -500,6 +504,9 @@ const COURS_URLS = [
   'https://cdn.jsdelivr.net/gh/Bcasablanca/bourse-casablanca@main/fondamentaux.json'
 ];
 let cours = null;                 // {CLE: {px, v, nom}}
+// Application Bourse Casablanca (même site) : relatif sur GitHub, absolu ailleurs
+const BOURSE_URL = /github\.io$/.test(location.hostname) ? './' : 'https://bcasablanca.github.io/bourse-casablanca/';
+document.getElementById('lnkBourse').href = BOURSE_URL;
 let coursMeta = {maj:'', err:'', loading:false, at:0};
 
 function indexerCours(json){
@@ -944,6 +951,10 @@ function openMaj(id){
   document.getElementById('renfPrix').value='';
   document.getElementById('renfQty').value='';
   document.getElementById('renfPreview').hidden=true;
+  const c = cours && cours[String(id).trim().toUpperCase()];
+  const lnk=document.getElementById('lnkAnalyse');
+  lnk.href = BOURSE_URL + '#action=' + encodeURIComponent(c ? c.nom : id);
+  lnk.textContent = '📈 Voir l\'analyse de '+(c ? c.nom : id)+' dans Bourse Casa';
   const note=document.getElementById('majNote');
   note.hidden=false;
   note.textContent = a.auto
