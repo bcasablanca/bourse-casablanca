@@ -473,6 +473,7 @@ def main():
     tpl = DOSSIER / "bourse_template.html"
     if tpl.exists():
         with open(str(tpl), encoding="utf-8") as f: html = f.read()
+    html = ajouter_lien_portefeuille(html)
 
     fond_json = json.dumps(fond or {}, separators=sep, ensure_ascii=False)
     html=html.replace("%%ACTION_DATA%%",aj)
@@ -486,6 +487,54 @@ def main():
     taille=os.path.getsize(str(HTML_PATH))//1024
     print("  [OK] "+str(HTML_PATH)+" ("+str(taille)+" KB)")
     print(SEP+"\n")
+
+# -----------------------------------------------------------------------------
+# Lien vers l'application Portefeuille (portefeuille.html, meme site GitHub)
+#  - bouton "Mon portefeuille" dans l'en-tete, a cote de "Mettre a jour"
+#  - lien direct vers une action : index.html#action=<nom>  (ex. #action=Addoha)
+#    utilise par le portefeuille pour ouvrir l'analyse d'une ligne.
+# -----------------------------------------------------------------------------
+LIEN_PTF_CSS = """<style>
+.ptf-link{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:8px;
+  border:1px solid var(--gold);color:var(--gold);background:rgba(245,200,66,.08);
+  font-weight:700;font-size:13px;text-decoration:none;white-space:nowrap;font-family:inherit}
+.ptf-link:hover{background:rgba(245,200,66,.18)}
+@media(max-width:768px){.ptf-link{padding:7px 10px;font-size:12px}}
+</style>
+"""
+LIEN_PTF_BOUTON = '<a class="ptf-link" href="portefeuille.html" title="Ouvrir mon portefeuille">&#x1F4BC; Portefeuille</a>\n    '
+LIEN_PTF_SCRIPT = """<script>
+/* Ouverture directe d'une action : index.html#action=<nom> (lien depuis le portefeuille) */
+(function(){
+  function ouvrir(){
+    var m=/[#&]action=([^&]+)/.exec(location.hash||''); if(!m) return;
+    var nom=decodeURIComponent(m[1].replace(/\\+/g,' '));
+    try{
+      if(typeof ACTS==='undefined') return;
+      var trouve=ACTS.find(function(a){return a.toLowerCase()===nom.toLowerCase();});
+      if(!trouve) return;
+      sw('action'); la(trouve);
+      var s=document.getElementById('selA'); if(s) s.value=trouve;
+      window.scrollTo(0,0);
+    }catch(e){ console.error('Lien action :',e); }
+  }
+  window.addEventListener('load',function(){ setTimeout(ouvrir,0); });
+  window.addEventListener('hashchange',ouvrir);
+})();
+</script>
+"""
+
+def ajouter_lien_portefeuille(html):
+    if "ptf-link" in html:
+        return html
+    html = html.replace("</head>", LIEN_PTF_CSS + "</head>", 1)
+    cible = '<button class="update-btn" id="updateBtn"'
+    if cible in html:
+        html = html.replace(cible, LIEN_PTF_BOUTON + cible, 1)
+    else:
+        html = html.replace("</header>", LIEN_PTF_BOUTON + "</header>", 1)
+    html = html.replace("</body>", LIEN_PTF_SCRIPT + "</body>", 1)
+    return html
 
 if __name__=="__main__":
     try:
