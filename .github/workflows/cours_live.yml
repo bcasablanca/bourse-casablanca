@@ -2,9 +2,12 @@ name: Cours de la seance (portefeuille)
 
 on:
   schedule:
-    # Toutes les 15 min de 08:00 a 14:45 UTC = 9h00-15h45 heure du Maroc (UTC+1),
-    # du lundi au vendredi. GitHub peut retarder ou sauter un passage.
-    - cron: "*/15 8-14 * * 1-5"
+    # Secours : toutes les 15 min de 08:07 a 15:52 UTC, du lundi au vendredi
+    # (couvre la seance que le Maroc soit a UTC+0 ou UTC+1). Minutes decalees
+    # de l'heure pile, moins chargee chez GitHub. GitHub peut quand meme
+    # retarder ou sauter des passages : le Portefeuille lance donc aussi
+    # cette tache a la demande (onglet Seance).
+    - cron: "7,22,37,52 8-15 * * 1-5"
   workflow_dispatch:
 
 concurrency:
