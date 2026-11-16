@@ -274,6 +274,8 @@ def marche_du_jour():
             "nb_transactions": _num(a.get("nbTransactions")),
             "capitalisation": _num(a.get("capitalisation")),
             "nb_titres": _num(a.get("nombreTitres")),
+            "achat": a.get("achat"),   # meilleure offre {'prix', 'quantite'}
+            "vente": a.get("vente"),
         })
     return {"seance": _etat_seance(lm), "actions": actions}
 
