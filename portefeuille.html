@@ -225,6 +225,11 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
       </table>
     </div>
     <div class="sec" style="margin-top:20px">
+      <span class="sec-title">Cotations <span class="chip chip-a">séance</span></span>
+      <span style="font-size:.68rem;color:var(--muted2)">touchez pour ouvrir</span>
+    </div>
+    <div id="ptfCot"></div>
+    <div class="sec" style="margin-top:20px">
       <span class="sec-title">Actions vendues <span class="chip chip-v" id="chipAnV">2026</span></span>
       <span style="font-size:.72rem;color:var(--gold)" id="secVendu">–</span>
     </div>
@@ -950,6 +955,7 @@ function renderPtf(){
     </tr>`;
     document.getElementById('tbActif').innerHTML=h;
   }
+  renderPtfCotations();
   document.getElementById('secActif').textContent=actifs.length+' ligne(s)';
   renderCoursInfo();
   renderExercice();
@@ -1120,6 +1126,23 @@ function renderDetail(){
 //  achat/vente (seule ligne du carnet publiée par la BVC) et relevés
 //  de la séance (r = [heure, cours, titres échangés cumulés]).
 // ════════════════════
+// Onglet Portefeuille : une ligne repliable par action (reste ouverte
+// d'une actualisation à l'autre)
+const cotOuvertes = new Set();
+function renderPtfCotations(){
+  const el=document.getElementById('ptfCot'); if(!el) return;
+  if(!db.actifs.length){ el.innerHTML='<div class="cot-none" style="padding:4px 0">Aucune action en portefeuille.</div>'; return; }
+  el.innerHTML=db.actifs.map(a=>{
+    const c=liveDe(a), id=esc(a.id);
+    const off=c&&(c.ach||c.vte)?`<span class="t-mono" style="font-size:.66rem"><span style="color:var(--green)">${c.ach?fmt(c.ach[0]):'–'}</span> / <span style="color:var(--red)">${c.vte?fmt(c.vte[0]):'–'}</span></span>`:'';
+    return `<details class="arch-card" data-id="${id}" ${cotOuvertes.has(a.id)?'open':''} ontoggle="this.open?cotOuvertes.add(this.dataset.id):cotOuvertes.delete(this.dataset.id)">
+      <summary style="padding:9px 12px">
+        <span class="t-ticker">${id}</span>
+        ${off}
+        <span style="white-space:nowrap"><span class="t-mono" style="color:var(--text)">${c?fmt(c.cours):'–'}</span> <span class="${c?varCls(c.var):'t-mono'}" style="font-size:.74rem">${c?varTxt(c.var):''}</span> <span style="color:var(--muted)">▾</span></span>
+      </summary>${ficheCotation(a)}</details>`;
+  }).join('');
+}
 function liveDe(a){
   if(!live || !live.actions) return null;
   const id=String(a.id).trim().toUpperCase();
