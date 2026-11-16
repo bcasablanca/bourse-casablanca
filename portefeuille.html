@@ -110,6 +110,21 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
 .se-table th.on{color:var(--accent)}
 .se-table td.nm{text-align:left;max-width:130px;overflow:hidden;text-overflow:ellipsis;font-size:.76rem;font-weight:600}
 .se-search{width:100%;margin-bottom:8px}
+/* Fiche cotation (onglet Détail) */
+.cot{border-top:1px solid var(--border2);background:var(--bg);cursor:default}
+.cot-hd{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:9px 13px 6px}
+.cot-t{font-size:.63rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted)}
+.cot-px{font-family:var(--mono);font-size:1.05rem;font-weight:700}
+.cot-s{font-size:.62rem;color:var(--muted2);font-family:var(--mono);padding:0 13px 6px}
+.cot table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.cot th{font-size:.6rem;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);font-weight:600;padding:5px 13px;text-align:right;background:var(--s1);border-top:1px solid var(--border);border-bottom:1px solid var(--border);white-space:nowrap}
+.cot th:first-child,.cot td:first-child{text-align:left}
+.cot td{font-family:var(--mono);font-size:.76rem;padding:4px 13px;text-align:right;white-space:nowrap}
+.cot td:first-child{font-family:var(--sans);font-size:.74rem;color:var(--muted2)}
+.cot td.old{color:var(--muted2)}
+.cot .ach{color:var(--green)}.cot .vte{color:var(--red)}
+.cot-sec{font-size:.6rem;text-transform:uppercase;letter-spacing:1.2px;color:var(--muted);padding:9px 13px 0;text-align:center}
+.cot-none{font-size:.72rem;color:var(--muted2);padding:4px 13px 10px}
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.78);z-index:500;display:none;align-items:flex-end;justify-content:center;backdrop-filter:blur(6px)}
 .modal-overlay.open{display:flex}
 .modal{background:var(--s1);border-radius:20px 20px 0 0;padding:18px 18px calc(18px + env(safe-area-inset-bottom,0px));width:100%;max-width:480px;max-height:90vh;overflow-y:auto;border-top:1px solid var(--border2);animation:slideUp .26s ease}
@@ -171,7 +186,7 @@ header{background:var(--s1);border-bottom:1px solid var(--border);padding:12px 1
     <div class="hdr-top">
       <div class="hdr-brand">📈 BOURSE CASA</div>
       <div class="hdr-right">
-        <div class="sync" id="sync" title="Version 3 du 11/11/2026"><i></i><span id="syncTxt">Connexion…</span></div>
+        <div class="sync" id="sync" title="Version 4 du 16/11/2026"><i></i><span id="syncTxt">Connexion…</span></div>
         <div class="hdr-date" id="hdrDate"></div>
         <a class="hdr-btn hdr-link" id="lnkBourse" href="./" title="Ouvrir Bourse Casablanca (analyses du marché)">📈 Marché</a>
         <button class="hdr-btn" onclick="openBackup()" title="Sauvegarde" aria-label="Sauvegarde">💾</button>
@@ -831,7 +846,7 @@ function renderCoursInfo(){
   if(coursMeta.loading){ el.textContent = 'Cours BVC : actualisation…'; return; }
   if(coursMeta.err){ el.textContent = '⚠️ '+coursMeta.err; return; }
   const nonTrouves = db.actifs.filter(a=>!a.auto).map(a=>a.id);
-  el.innerHTML = '<span>'+esc(coursMeta.maj||'Cours BVC')+' <span style="color:var(--muted)">· v3</span></span>'+
+  el.innerHTML = '<span>'+esc(coursMeta.maj||'Cours BVC')+' <span style="color:var(--muted)">· v4</span></span>'+
     (nonTrouves.length ? '<span style="color:var(--gold)">Prix manuel : '+esc(nonTrouves.join(', '))+'</span>' : '');
 }
 // Actualisation : au retour sur la page, et toutes les 5 min tant qu'elle est affichée
@@ -1094,8 +1109,68 @@ function renderDetail(){
       ${dr('Valeur actuelle',fmt(a.valAct)+' MAD')}
       ${drC('+/- Latent (brut)',sgn(a.latent)+fmt(a.latent)+' MAD',upL)}
       ${drC('+/- Value (net frais)',sgn(a.pv)+fmt(a.pv)+' MAD',upV)}
+      ${ficheCotation(a)}
     </div>`;
   }).join('');
+}
+
+// ════════════════════
+//  FICHE COTATION (cours_live.json, mise à jour à chaque relevé)
+//  Séance du jour + séance précédente (live.veille), meilleure offre
+//  achat/vente (seule ligne du carnet publiée par la BVC) et relevés
+//  de la séance (r = [heure, cours, titres échangés cumulés]).
+// ════════════════════
+function liveDe(a){
+  if(!live || !live.actions) return null;
+  const id=String(a.id).trim().toUpperCase();
+  if(live.actions[id]) return Object.assign({sym:id}, live.actions[id]);
+  const sym=Object.keys(live.actions).find(s=>String(live.actions[s].nom||'').trim().toUpperCase()===id);
+  return sym ? Object.assign({sym}, live.actions[sym]) : null;
+}
+function jourCourt(iso){ return iso ? iso.split('-').reverse().join('.') : '–'; }
+function fmtVol(n){ n=Number(n); return n>0 ? fmt(n,0) : '–'; }
+function vwap(x){ return x && x.qte>0 && x.cap>0 ? x.cap/x.qte : null; }
+function ficheCotation(a){
+  const c=liveDe(a);
+  if(!c) return `<div class="cot" onclick="event.stopPropagation()"><div class="cot-hd"><span class="cot-t">Cotation</span></div><div class="cot-none">${live?'Valeur absente du relevé de séance.':'Pas encore de relevé de séance : touchez 🔄 Cours.'}</div></div>`;
+  const v=live.veille && live.veille.actions ? live.veille.actions[c.sym] : null;
+  const ouvert=live.statut==='open';
+  const pas=x=>x==null||isNaN(x)?'–':fmt(x);
+  const varc=x=>x==null||isNaN(x)?'–':`<span class="${x>0?'ach':x<0?'vte':''}">${(x>0?'+':'')+fmt(x,2)}</span>`;
+  const ligne=(l,x,y)=>`<tr><td>${l}</td><td>${x}</td><td class="old">${y}</td></tr>`;
+  const vv=v||{};
+  let h=`<div class="cot" onclick="event.stopPropagation()">
+    <div class="cot-hd"><span class="cot-t">Cotation de ${esc(c.sym)}</span>
+      <span><span class="cot-px">${fmt(c.cours)}</span> <span class="${varCls(c.var)}" style="font-size:.8rem">${varTxt(c.var)}</span></span></div>
+    <div class="cot-s">${ouvert?'🟢 Séance en cours':'⚪ Séance clôturée'} · relevé de ${esc(heureReleve(live))} · différé 15 min</div>
+    <table><thead><tr><th></th><th>${jourCourt(live.date)}</th><th>${v?jourCourt(live.veille.date):'Veille'}</th></tr></thead><tbody>
+      ${ligne('Dernier', fmt(c.cours), pas(v?vv.cours:c.ref)+'<span style="font-size:.6rem">(c)</span>')}
+      ${ligne('Var (%)', varc(c.var), varc(vv.var))}
+      ${ligne('Premier', pas(c.ouv), pas(vv.ouv))}
+      ${ligne('+Haut', pas(c.haut), pas(vv.haut))}
+      ${ligne('+Bas', pas(c.bas), pas(vv.bas))}
+      ${ligne('Volume', fmtVol(c.qte), fmtVol(vv.qte))}
+      ${ligne('Capitaux', fmtCap(c.cap), fmtCap(vv.cap))}
+      ${ligne('VWAP', pas(vwap(c)), pas(vwap(vv)))}
+      ${ligne('Transactions', fmtVol(c.nbt), fmtVol(vv.nbt))}
+    </tbody></table>`;
+  if(c.ach || c.vte){
+    const o=c.ach||[null,null], w=c.vte||[null,null];
+    h+=`<div class="cot-sec">Meilleure offre</div>
+    <table><thead><tr><th>Qté</th><th>Achat</th><th>Vente</th><th>Qté</th></tr></thead><tbody>
+      <tr><td style="font-family:var(--mono);color:var(--text)">${fmtVol(o[1])}</td><td class="ach">${pas(o[0])}</td><td class="vte">${pas(w[0])}</td><td>${fmtVol(w[1])}</td></tr>
+    </tbody></table>`;
+  }
+  const r=Array.isArray(c.r)?c.r:[];
+  if(r.length){
+    const lignes=r.map((x,i)=>({h:x[0], px:x[1], q:i?x[2]-r[i-1][2]:x[2]})).reverse().slice(0,8);
+    h+=`<div class="cot-sec">Relevés de la séance</div>
+    <table><thead><tr><th>Heure</th><th>Cours</th><th>Titres échangés</th></tr></thead><tbody>
+      ${lignes.map((x,i)=>`<tr><td style="font-family:var(--mono);color:var(--text)">${esc(x.h)}</td><td>${fmt(x.px)}</td><td>${x.q>0?(i===lignes.length-1&&lignes.length===r.length?'':'+')+fmt(x.q,0):'–'}</td></tr>`).join('')}
+    </tbody></table>
+    <div class="cot-s" style="padding-top:5px">Titres échangés entre deux relevés (le premier : depuis l'ouverture).</div>`;
+  }
+  return h+'<div style="height:6px"></div></div>';
 }
 
 // ════════════════════
